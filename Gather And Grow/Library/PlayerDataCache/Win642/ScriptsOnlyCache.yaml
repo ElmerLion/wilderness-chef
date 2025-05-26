@@ -1,0 +1,4720 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp:
+    - Harvestable
+    - Item
+    - ItemTooltipUI
+    - Michsky.UI.Heat.AchievementLibrary
+    - Michsky.UI.Heat.LocalizationLanguage
+    - Michsky.UI.Heat.LocalizationSettings
+    - Michsky.UI.Heat.LocalizationTable
+    - Michsky.UI.Heat.UIManager
+    - PlantItemSO
+    - Plate
+    - Ricimi.ColorSwapper
+    - Ricimi.MusicManager
+    - Ricimi.PlayPopup
+    - Ricimi.PlayPopupOpener
+    - Ricimi.Popup
+    - Ricimi.PopupOpener
+    - Ricimi.SceneTransition
+    - Ricimi.SoundManager
+    - Ricimi.SpinWheel
+    - Ricimi.SpriteSwapper
+    - YSorter
+    Assembly-CSharp-Editor-firstpass.dll:
+    - ES3Editor.ES3Window
+    Assembly-CSharp-firstpass:
+    - ES3Defaults
+    - ES3GameObject
+    - ES3Internal.ES3GlobalReferences
+    Assembly-CSharp-firstpass.dll:
+    - ES3AutoSaveMgr
+    - ES3Defaults
+    - ES3GameObject
+    - ES3Internal.ES3GlobalReferences
+    - ES3Internal.ES3Prefab
+    - ES3ReferenceMgr
+    Assembly-CSharp.dll:
+    - Animal
+    - AnimalCoop
+    - AnimalManager
+    - AnimalSO
+    - AnimalSpawner
+    - AudioManager
+    - BaseStation
+    - Bush
+    - ButtonAnimator
+    - CameraShake
+    - ChefGameManager
+    - CookBookManager
+    - CookbookUI
+    - CookingStation
+    - CuttingStation
+    - DeliveryStation
+    - EconomyManager
+    - EconomyUI
+    - GameInput
+    - GardenPlot
+    - Harvestable
+    - HarvestableManager
+    - InventoryManager
+    - InventorySlotUI
+    - InventoryUI
+    - Item
+    - ItemManager
+    - ItemSO
+    - ItemTooltipUI
+    - LoadGameUI
+    - LoaderCallback
+    - MainMenuUI
+    - MealCardUI
+    - MealOrderManager
+    - MealOrderUI
+    - MealSO
+    - MessageUI
+    - Michsky.UI.Heat.AchievementLibrary
+    - Michsky.UI.Heat.ImagePulse
+    - Michsky.UI.Heat.LocalizationLanguage
+    - Michsky.UI.Heat.LocalizationSettings
+    - Michsky.UI.Heat.LocalizationTable
+    - Michsky.UI.Heat.SliderInput
+    - Michsky.UI.Heat.SliderManager
+    - Michsky.UI.Heat.UIManager
+    - Michsky.UI.Heat.UIManagerImage
+    - Michsky.UI.Heat.UIManagerText
+    - MixerStation
+    - OptionsMenuUI
+    - ParticleEffectsManager
+    - PauseMenuUI
+    - PlantItemSO
+    - Plate
+    - PlatesTable
+    - Player
+    - ProgressBarUI
+    - PurchaseStationSingleUI
+    - PurchaseStationUI
+    - RankManager
+    - RecipeSO
+    - SaveManager
+    - SingleLoadSlotUI
+    - StationManager
+    - StationPlot
+    - StationSO
+    - TrashStation
+    - TreeRustle
+    - UIManager
+    - UnlockableArea
+    - WashingStation
+    - WaterWell
+    - YSorter
+    QFSW.QC.UI.dll:
+    - QFSW.QC.UI.BlurShaderController
+    - QFSW.QC.UI.DraggableUI
+    - QFSW.QC.UI.DynamicCanvasScaler
+    - QFSW.QC.UI.ResizableUI
+    - QFSW.QC.UI.ZoomUIController
+    QFSW.QC.dll:
+    - QFSW.QC.QuantumConsole
+    - QFSW.QC.QuantumKeyConfig
+    - QFSW.QC.QuantumLocalization
+    - QFSW.QC.QuantumTheme
+    - QFSW.QC.SuggestionDisplay
+    Unity.2D.Animation.Editor.dll:
+    - UnityEditor.U2D.Animation.BoneGizmo
+    Unity.2D.Animation.Runtime.dll:
+    - UnityEngine.U2D.Animation.BufferManager
+    - UnityEngine.U2D.Animation.DeformationManager
+    - UnityEngine.U2D.Animation.DeformationManagerUpdater
+    Unity.2D.IK.Editor.dll:
+    - UnityEditor.U2D.IK.IKEditorManager
+    Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridBrushPickStore
+    - UnityEditor.Tilemaps.GridPaintPaletteWindow
+    - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.PaintableSceneViewGrid
+    - UnityEditor.Tilemaps.SceneViewGridManager
+    - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
+    - UnityEditor.Tilemaps.TileDragAndDropManager
+    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
+    - UnityEditor.Tilemaps.TilemapPrefabStageHelper
+    Unity.2D.Tilemap.Extras.dll:
+    - UnityEngine.RuleTile
+    Unity.Cinemachine.dll:
+    - Unity.Cinemachine.CinemachineBasicMultiChannelPerlin
+    - Unity.Cinemachine.CinemachineBrain
+    - Unity.Cinemachine.CinemachineCamera
+    - Unity.Cinemachine.CinemachineFollow
+    - Unity.Cinemachine.NoiseSettings
+    Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputActionReference
+    - UnityEngine.InputSystem.InputSettings
+    - UnityEngine.InputSystem.InputSystemObject
+    - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    - UnityEngine.InputSystem.UI.InputSystemUIInputModule
+    Unity.RenderPipelines.Core.Runtime:
+    - UnityEngine.Rendering.UI.DebugUIHandlerBitField
+    - UnityEngine.Rendering.UI.DebugUIHandlerButton
+    - UnityEngine.Rendering.UI.DebugUIHandlerCanvas
+    - UnityEngine.Rendering.UI.DebugUIHandlerColor
+    - UnityEngine.Rendering.UI.DebugUIHandlerContainer
+    - UnityEngine.Rendering.UI.DebugUIHandlerEnumField
+    - UnityEngine.Rendering.UI.DebugUIHandlerEnumHistory
+    - UnityEngine.Rendering.UI.DebugUIHandlerFloatField
+    - UnityEngine.Rendering.UI.DebugUIHandlerFoldout
+    - UnityEngine.Rendering.UI.DebugUIHandlerGroup
+    - UnityEngine.Rendering.UI.DebugUIHandlerHBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectFloatField
+    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectToggle
+    - UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    - UnityEngine.Rendering.UI.DebugUIHandlerMessageBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerObject
+    - UnityEngine.Rendering.UI.DebugUIHandlerObjectList
+    - UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
+    - UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    - UnityEngine.Rendering.UI.DebugUIHandlerPersistentCanvas
+    - UnityEngine.Rendering.UI.DebugUIHandlerProgressBar
+    - UnityEngine.Rendering.UI.DebugUIHandlerRow
+    - UnityEngine.Rendering.UI.DebugUIHandlerToggle
+    - UnityEngine.Rendering.UI.DebugUIHandlerToggleHistory
+    - UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    - UnityEngine.Rendering.UI.DebugUIHandlerVBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerValue
+    - UnityEngine.Rendering.UI.DebugUIHandlerValueTuple
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector2
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector3
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector4
+    - UnityEngine.Rendering.UI.UIFoldout
+    Unity.RenderPipelines.Core.Runtime.dll:
+    - UnityEngine.Rendering.ProbeVolumesOptions
+    - UnityEngine.Rendering.VolumeProfile
+    Unity.RenderPipelines.Universal.2D.Runtime.dll:
+    - UnityEngine.Rendering.Universal.Light2D
+    - UnityEngine.Rendering.Universal.Renderer2DData
+    Unity.RenderPipelines.Universal.Editor.dll:
+    - UnityEditor.Rendering.Universal.UniversalProjectSettings
+    Unity.RenderPipelines.Universal.Runtime.dll:
+    - UnityEngine.Rendering.Universal.Bloom
+    - UnityEngine.Rendering.Universal.ChannelMixer
+    - UnityEngine.Rendering.Universal.ChromaticAberration
+    - UnityEngine.Rendering.Universal.ColorAdjustments
+    - UnityEngine.Rendering.Universal.ColorCurves
+    - UnityEngine.Rendering.Universal.ColorLookup
+    - UnityEngine.Rendering.Universal.DepthOfField
+    - UnityEngine.Rendering.Universal.FilmGrain
+    - UnityEngine.Rendering.Universal.LensDistortion
+    - UnityEngine.Rendering.Universal.LiftGammaGain
+    - UnityEngine.Rendering.Universal.MotionBlur
+    - UnityEngine.Rendering.Universal.PaniniProjection
+    - UnityEngine.Rendering.Universal.PostProcessData
+    - UnityEngine.Rendering.Universal.ScreenSpaceLensFlare
+    - UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights
+    - UnityEngine.Rendering.Universal.SplitToning
+    - UnityEngine.Rendering.Universal.Tonemapping
+    - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings
+    - UnityEngine.Rendering.Universal.Vignette
+    - UnityEngine.Rendering.Universal.WhiteBalance
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Splines.Editor.dll:
+    - UnityEditor.Splines.CreateSplineTool
+    - UnityEditor.Splines.SelectionContext
+    Unity.TextMeshPro:
+    - TMPro.TMP_Dropdown
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_InputField
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
+    - TMPro.TextMeshProUGUI
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_InputField
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
+    - TMPro.TextMeshProUGUI
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.ToggleGroup
+    - UnityEngine.UI.VerticalLayoutGroup
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.VerticalLayoutGroup
+  serializedClasses:
+    Assembly-CSharp:
+    - AudioManager/MusicAudioClip
+    - AudioManager/RandomIntervalAudio
+    - AudioManager/SoundAudioClip
+    - CookbookUI/StationRecipeInfo
+    - EffectEntry
+    - ItemAmount
+    - Michsky.UI.Heat.AchievementLibrary/AchievementItem
+    - Michsky.UI.Heat.LocalizationLanguage/TableContent
+    - Michsky.UI.Heat.LocalizationLanguage/TableList
+    - Michsky.UI.Heat.LocalizationSettings/Language
+    - Michsky.UI.Heat.LocalizationSettings/Table
+    - Michsky.UI.Heat.LocalizationTable/TableContent
+    - Michsky.UI.Heat.SliderManager/SliderEvent
+    - RankManager/Rank
+    - StationManager/SpawnPoint
+    - StationManager/StationPrefabEntry
+    Assembly-CSharp-firstpass:
+    - ES3Internal.ES3IdRefDictionary
+    - ES3Internal.ES3RefIdDictionary
+    - ES3SerializableSettings
+    QFSW.QC:
+    - QFSW.QC.CollectionFormatter
+    - QFSW.QC.ModifierKeyCombo
+    - QFSW.QC.TypeColorFormatter
+    Unity.2D.Tilemap.Extras:
+    - UnityEngine.RuleTile/TilingRule
+    Unity.Cinemachine:
+    - Unity.Cinemachine.CameraTarget
+    - Unity.Cinemachine.CinemachineBlendDefinition
+    - Unity.Cinemachine.CinemachineBrain/LensModeOverrideSettings
+    - Unity.Cinemachine.LensSettings
+    - Unity.Cinemachine.LensSettings/PhysicalSettings
+    - Unity.Cinemachine.NoiseSettings/NoiseParams
+    - Unity.Cinemachine.NoiseSettings/TransformNoiseParams
+    - Unity.Cinemachine.PrioritySettings
+    - Unity.Cinemachine.TargetTracking.TrackerSettings
+    Unity.InputSystem:
+    - UnityEngine.InputSystem.InputAction
+    - UnityEngine.InputSystem.InputActionMap
+    - UnityEngine.InputSystem.InputBinding
+    - UnityEngine.InputSystem.InputControlScheme
+    - UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
+    Unity.RenderPipelines.Core.Runtime:
+    - UnityEngine.Rendering.APVLeakReductionModeParameter
+    - UnityEngine.Rendering.BoolParameter
+    - UnityEngine.Rendering.ClampedFloatParameter
+    - UnityEngine.Rendering.ClampedIntParameter
+    - UnityEngine.Rendering.ColorParameter
+    - UnityEngine.Rendering.FloatParameter
+    - UnityEngine.Rendering.IncludeAdditionalRPAssets
+    - UnityEngine.Rendering.MinFloatParameter
+    - UnityEngine.Rendering.NoInterpTextureParameter
+    - UnityEngine.Rendering.ProbeVolumeBakingResources
+    - UnityEngine.Rendering.ProbeVolumeBlendingTextureMemoryBudget
+    - UnityEngine.Rendering.ProbeVolumeDebugResources
+    - UnityEngine.Rendering.ProbeVolumeGlobalSettings
+    - UnityEngine.Rendering.ProbeVolumeRuntimeResources
+    - UnityEngine.Rendering.ProbeVolumeSHBands
+    - UnityEngine.Rendering.ProbeVolumeSceneData
+    - UnityEngine.Rendering.ProbeVolumeTextureMemoryBudget
+    - UnityEngine.Rendering.RenderGraphGlobalSettings
+    - UnityEngine.Rendering.RenderGraphModule.Util.RenderGraphUtilsResources
+    - UnityEngine.Rendering.RenderPipelineGraphicsSettingsContainer
+    - UnityEngine.Rendering.STP/RuntimeResources
+    - UnityEngine.Rendering.SerializedDictionary`2
+    - UnityEngine.Rendering.ShaderStrippingSetting
+    - UnityEngine.Rendering.TextureCurve
+    - UnityEngine.Rendering.TextureCurveParameter
+    - UnityEngine.Rendering.TextureParameter
+    - UnityEngine.Rendering.UI.DebugUIPrefabBundle
+    - UnityEngine.Rendering.Vector2Parameter
+    - UnityEngine.Rendering.Vector3Parameter
+    - UnityEngine.Rendering.Vector4Parameter
+    Unity.RenderPipelines.GPUDriven.Runtime:
+    - UnityEngine.Rendering.GPUResidentDrawerResources
+    Unity.RenderPipelines.Universal.2D.Runtime:
+    - UnityEngine.Rendering.Universal.Light2DBlendStyle
+    Unity.RenderPipelines.Universal.Runtime:
+    - UnityEngine.Rendering.Universal.DepthOfFieldModeParameter
+    - UnityEngine.Rendering.Universal.DownscaleParameter
+    - UnityEngine.Rendering.Universal.FilmGrainLookupParameter
+    - UnityEngine.Rendering.Universal.HDRACESPresetParameter
+    - UnityEngine.Rendering.Universal.MotionBlurModeParameter
+    - UnityEngine.Rendering.Universal.MotionBlurQualityParameter
+    - UnityEngine.Rendering.Universal.NeutralRangeReductionModeParameter
+    - UnityEngine.Rendering.Universal.PostProcessData/ShaderResources
+    - UnityEngine.Rendering.Universal.PostProcessData/TextureResources
+    - UnityEngine.Rendering.Universal.RenderGraphSettings
+    - UnityEngine.Rendering.Universal.Renderer2DResources
+    - UnityEngine.Rendering.Universal.ScreenSpaceLensFlareResolutionParameter
+    - UnityEngine.Rendering.Universal.ScriptableRendererData/DebugShaderResources
+    - UnityEngine.Rendering.Universal.ScriptableRendererData/ProbeVolumeResources
+    - UnityEngine.Rendering.Universal.TemporalAA/Settings
+    - UnityEngine.Rendering.Universal.TonemappingModeParameter
+    - UnityEngine.Rendering.Universal.URPDefaultVolumeProfileSettings
+    - UnityEngine.Rendering.Universal.URPShaderStrippingSetting
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset/TextureResources
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineDebugShaders
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorAssets
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorMaterials
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorShaders
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeShaders
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeTextures
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineRuntimeXRResources
+    - UnityEngine.Rendering.Universal.UniversalRendererResources
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_Dropdown/DropdownEvent
+    - TMPro.TMP_Dropdown/OptionData
+    - TMPro.TMP_Dropdown/OptionDataList
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_Glyph
+    - TMPro.TMP_InputField/OnChangeEvent
+    - TMPro.TMP_InputField/SelectionEvent
+    - TMPro.TMP_InputField/SubmitEvent
+    - TMPro.TMP_InputField/TextSelectionEvent
+    - TMPro.TMP_InputField/TouchScreenKeyboardEvent
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
+    UnityEngine.CoreModule:
+    - UnityEngine.Bounds
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent
+    - UnityEngine.RectOffset
+    - UnityEngine.Rendering.RenderPipelineGraphicsSettingsCollection
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    - UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
+    - UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord
+    - UnityEngine.TextCore.LowLevel.GlyphValueRecord
+    UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.Slider/SliderEvent
+    - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
+  methodsToPreserve:
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerButton
+    methodName: OnAction
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: OnScrollbarClicked
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: OnScrollbarClicked
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: ResetDebugManager
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.UI
+    fullTypeName: UnityEngine.UI.Image
+    methodName: set_material
+  sceneClasses:
+    Assets/Scenes/GameScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 17492}
+    - Class: 114
+      Script: {instanceID: 17520}
+    - Class: 114
+      Script: {instanceID: 17658}
+    - Class: 114
+      Script: {instanceID: 17838}
+    - Class: 114
+      Script: {instanceID: 17974}
+    - Class: 114
+      Script: {instanceID: 18022}
+    - Class: 114
+      Script: {instanceID: 18170}
+    - Class: 114
+      Script: {instanceID: 18242}
+    - Class: 114
+      Script: {instanceID: 18398}
+    - Class: 114
+      Script: {instanceID: 18672}
+    - Class: 114
+      Script: {instanceID: 18976}
+    - Class: 114
+      Script: {instanceID: 18990}
+    - Class: 114
+      Script: {instanceID: 19054}
+    - Class: 114
+      Script: {instanceID: 19098}
+    - Class: 114
+      Script: {instanceID: 19212}
+    - Class: 114
+      Script: {instanceID: 19354}
+    - Class: 114
+      Script: {instanceID: 19506}
+    - Class: 114
+      Script: {instanceID: 19578}
+    - Class: 114
+      Script: {instanceID: 19670}
+    - Class: 114
+      Script: {instanceID: 19672}
+    - Class: 114
+      Script: {instanceID: 19674}
+    - Class: 114
+      Script: {instanceID: 19780}
+    - Class: 114
+      Script: {instanceID: 20224}
+    - Class: 114
+      Script: {instanceID: 20278}
+    - Class: 114
+      Script: {instanceID: 20404}
+    - Class: 114
+      Script: {instanceID: 20522}
+    - Class: 114
+      Script: {instanceID: 20628}
+    - Class: 114
+      Script: {instanceID: 20736}
+    - Class: 114
+      Script: {instanceID: 20766}
+    - Class: 114
+      Script: {instanceID: 20768}
+    - Class: 114
+      Script: {instanceID: 20846}
+    - Class: 114
+      Script: {instanceID: 20986}
+    - Class: 114
+      Script: {instanceID: 21018}
+    - Class: 114
+      Script: {instanceID: 21246}
+    - Class: 114
+      Script: {instanceID: 21376}
+    - Class: 114
+      Script: {instanceID: 21430}
+    - Class: 114
+      Script: {instanceID: 21474}
+    - Class: 114
+      Script: {instanceID: 21622}
+    - Class: 114
+      Script: {instanceID: 21820}
+    - Class: 114
+      Script: {instanceID: 22118}
+    - Class: 114
+      Script: {instanceID: 22358}
+    - Class: 114
+      Script: {instanceID: 22486}
+    - Class: 114
+      Script: {instanceID: 22496}
+    - Class: 114
+      Script: {instanceID: 22662}
+    - Class: 114
+      Script: {instanceID: 22992}
+    - Class: 114
+      Script: {instanceID: 23198}
+    - Class: 114
+      Script: {instanceID: 23218}
+    - Class: 114
+      Script: {instanceID: 23456}
+    - Class: 114
+      Script: {instanceID: 23506}
+    - Class: 114
+      Script: {instanceID: 23548}
+    - Class: 114
+      Script: {instanceID: 23764}
+    - Class: 114
+      Script: {instanceID: 23994}
+    - Class: 114
+      Script: {instanceID: 24112}
+    - Class: 114
+      Script: {instanceID: 24328}
+    - Class: 114
+      Script: {instanceID: 24382}
+    - Class: 114
+      Script: {instanceID: 24446}
+    - Class: 114
+      Script: {instanceID: 24504}
+    - Class: 114
+      Script: {instanceID: 24688}
+    - Class: 114
+      Script: {instanceID: 24694}
+    - Class: 114
+      Script: {instanceID: 25068}
+    - Class: 114
+      Script: {instanceID: 25134}
+    - Class: 114
+      Script: {instanceID: 25310}
+    - Class: 114
+      Script: {instanceID: 25430}
+    - Class: 114
+      Script: {instanceID: 25570}
+    - Class: 114
+      Script: {instanceID: 25766}
+    - Class: 114
+      Script: {instanceID: 26076}
+    - Class: 114
+      Script: {instanceID: 26084}
+    - Class: 114
+      Script: {instanceID: 26350}
+    - Class: 114
+      Script: {instanceID: 26406}
+    - Class: 114
+      Script: {instanceID: 26754}
+    - Class: 114
+      Script: {instanceID: 26762}
+    - Class: 114
+      Script: {instanceID: 26842}
+    - Class: 114
+      Script: {instanceID: 26864}
+    - Class: 114
+      Script: {instanceID: 26904}
+    - Class: 114
+      Script: {instanceID: 26986}
+    - Class: 114
+      Script: {instanceID: 27160}
+    - Class: 114
+      Script: {instanceID: 27220}
+    - Class: 114
+      Script: {instanceID: 27492}
+    - Class: 114
+      Script: {instanceID: 27560}
+    - Class: 114
+      Script: {instanceID: 27570}
+    - Class: 114
+      Script: {instanceID: 27752}
+    - Class: 114
+      Script: {instanceID: 27812}
+    - Class: 114
+      Script: {instanceID: 27876}
+    - Class: 114
+      Script: {instanceID: 27912}
+    - Class: 114
+      Script: {instanceID: 28074}
+    - Class: 114
+      Script: {instanceID: 28120}
+    - Class: 114
+      Script: {instanceID: 28434}
+    - Class: 114
+      Script: {instanceID: 28482}
+    - Class: 114
+      Script: {instanceID: 29084}
+    - Class: 114
+      Script: {instanceID: 29432}
+    - Class: 114
+      Script: {instanceID: 29702}
+    - Class: 114
+      Script: {instanceID: 29728}
+    - Class: 114
+      Script: {instanceID: 29788}
+    - Class: 114
+      Script: {instanceID: 29826}
+    - Class: 114
+      Script: {instanceID: 29912}
+    - Class: 114
+      Script: {instanceID: 29996}
+    - Class: 114
+      Script: {instanceID: 30276}
+    - Class: 114
+      Script: {instanceID: 30466}
+    - Class: 114
+      Script: {instanceID: 30508}
+    - Class: 114
+      Script: {instanceID: 30580}
+    - Class: 114
+      Script: {instanceID: 30630}
+    - Class: 114
+      Script: {instanceID: 30914}
+    - Class: 114
+      Script: {instanceID: 31174}
+    - Class: 114
+      Script: {instanceID: 31322}
+    - Class: 114
+      Script: {instanceID: 31388}
+    - Class: 114
+      Script: {instanceID: 31430}
+    - Class: 114
+      Script: {instanceID: 31450}
+    - Class: 114
+      Script: {instanceID: 31558}
+    - Class: 114
+      Script: {instanceID: 31926}
+    - Class: 114
+      Script: {instanceID: 32236}
+    - Class: 114
+      Script: {instanceID: 32364}
+    - Class: 114
+      Script: {instanceID: 32708}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
+      Script: {instanceID: 0}
+    Assets/Scenes/LoadingScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 17658}
+    - Class: 114
+      Script: {instanceID: 18242}
+    - Class: 114
+      Script: {instanceID: 19780}
+    - Class: 114
+      Script: {instanceID: 22486}
+    - Class: 114
+      Script: {instanceID: 25766}
+    - Class: 114
+      Script: {instanceID: 30508}
+    - Class: 114
+      Script: {instanceID: 30630}
+    - Class: 114
+      Script: {instanceID: 31558}
+    - Class: 114
+      Script: {instanceID: 75754}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/MainMenuScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 17658}
+    - Class: 114
+      Script: {instanceID: 17838}
+    - Class: 114
+      Script: {instanceID: 17854}
+    - Class: 114
+      Script: {instanceID: 17956}
+    - Class: 114
+      Script: {instanceID: 17974}
+    - Class: 114
+      Script: {instanceID: 18022}
+    - Class: 114
+      Script: {instanceID: 18044}
+    - Class: 114
+      Script: {instanceID: 18186}
+    - Class: 114
+      Script: {instanceID: 18242}
+    - Class: 114
+      Script: {instanceID: 18404}
+    - Class: 114
+      Script: {instanceID: 18492}
+    - Class: 114
+      Script: {instanceID: 18672}
+    - Class: 114
+      Script: {instanceID: 18676}
+    - Class: 114
+      Script: {instanceID: 18812}
+    - Class: 114
+      Script: {instanceID: 18976}
+    - Class: 114
+      Script: {instanceID: 18990}
+    - Class: 114
+      Script: {instanceID: 19054}
+    - Class: 114
+      Script: {instanceID: 19056}
+    - Class: 114
+      Script: {instanceID: 19098}
+    - Class: 114
+      Script: {instanceID: 19212}
+    - Class: 114
+      Script: {instanceID: 19354}
+    - Class: 114
+      Script: {instanceID: 19506}
+    - Class: 114
+      Script: {instanceID: 19578}
+    - Class: 114
+      Script: {instanceID: 19670}
+    - Class: 114
+      Script: {instanceID: 19780}
+    - Class: 114
+      Script: {instanceID: 20006}
+    - Class: 114
+      Script: {instanceID: 20180}
+    - Class: 114
+      Script: {instanceID: 20204}
+    - Class: 114
+      Script: {instanceID: 20278}
+    - Class: 114
+      Script: {instanceID: 20462}
+    - Class: 114
+      Script: {instanceID: 20736}
+    - Class: 114
+      Script: {instanceID: 20766}
+    - Class: 114
+      Script: {instanceID: 20768}
+    - Class: 114
+      Script: {instanceID: 20840}
+    - Class: 114
+      Script: {instanceID: 20880}
+    - Class: 114
+      Script: {instanceID: 20942}
+    - Class: 114
+      Script: {instanceID: 20974}
+    - Class: 114
+      Script: {instanceID: 20986}
+    - Class: 114
+      Script: {instanceID: 21018}
+    - Class: 114
+      Script: {instanceID: 21100}
+    - Class: 114
+      Script: {instanceID: 22118}
+    - Class: 114
+      Script: {instanceID: 22358}
+    - Class: 114
+      Script: {instanceID: 22486}
+    - Class: 114
+      Script: {instanceID: 22496}
+    - Class: 114
+      Script: {instanceID: 23008}
+    - Class: 114
+      Script: {instanceID: 23198}
+    - Class: 114
+      Script: {instanceID: 23218}
+    - Class: 114
+      Script: {instanceID: 23372}
+    - Class: 114
+      Script: {instanceID: 23438}
+    - Class: 114
+      Script: {instanceID: 23456}
+    - Class: 114
+      Script: {instanceID: 23548}
+    - Class: 114
+      Script: {instanceID: 23648}
+    - Class: 114
+      Script: {instanceID: 23764}
+    - Class: 114
+      Script: {instanceID: 23878}
+    - Class: 114
+      Script: {instanceID: 23956}
+    - Class: 114
+      Script: {instanceID: 24056}
+    - Class: 114
+      Script: {instanceID: 24178}
+    - Class: 114
+      Script: {instanceID: 24298}
+    - Class: 114
+      Script: {instanceID: 24328}
+    - Class: 114
+      Script: {instanceID: 24506}
+    - Class: 114
+      Script: {instanceID: 24694}
+    - Class: 114
+      Script: {instanceID: 25062}
+    - Class: 114
+      Script: {instanceID: 25068}
+    - Class: 114
+      Script: {instanceID: 25108}
+    - Class: 114
+      Script: {instanceID: 25332}
+    - Class: 114
+      Script: {instanceID: 25430}
+    - Class: 114
+      Script: {instanceID: 25462}
+    - Class: 114
+      Script: {instanceID: 25464}
+    - Class: 114
+      Script: {instanceID: 25766}
+    - Class: 114
+      Script: {instanceID: 26350}
+    - Class: 114
+      Script: {instanceID: 26406}
+    - Class: 114
+      Script: {instanceID: 26502}
+    - Class: 114
+      Script: {instanceID: 26620}
+    - Class: 114
+      Script: {instanceID: 26712}
+    - Class: 114
+      Script: {instanceID: 26754}
+    - Class: 114
+      Script: {instanceID: 26986}
+    - Class: 114
+      Script: {instanceID: 27074}
+    - Class: 114
+      Script: {instanceID: 27160}
+    - Class: 114
+      Script: {instanceID: 27446}
+    - Class: 114
+      Script: {instanceID: 27560}
+    - Class: 114
+      Script: {instanceID: 27570}
+    - Class: 114
+      Script: {instanceID: 27752}
+    - Class: 114
+      Script: {instanceID: 28182}
+    - Class: 114
+      Script: {instanceID: 28236}
+    - Class: 114
+      Script: {instanceID: 28434}
+    - Class: 114
+      Script: {instanceID: 28482}
+    - Class: 114
+      Script: {instanceID: 28684}
+    - Class: 114
+      Script: {instanceID: 29084}
+    - Class: 114
+      Script: {instanceID: 29172}
+    - Class: 114
+      Script: {instanceID: 29254}
+    - Class: 114
+      Script: {instanceID: 29432}
+    - Class: 114
+      Script: {instanceID: 29472}
+    - Class: 114
+      Script: {instanceID: 29610}
+    - Class: 114
+      Script: {instanceID: 29702}
+    - Class: 114
+      Script: {instanceID: 29712}
+    - Class: 114
+      Script: {instanceID: 29728}
+    - Class: 114
+      Script: {instanceID: 29826}
+    - Class: 114
+      Script: {instanceID: 29996}
+    - Class: 114
+      Script: {instanceID: 30276}
+    - Class: 114
+      Script: {instanceID: 30378}
+    - Class: 114
+      Script: {instanceID: 30422}
+    - Class: 114
+      Script: {instanceID: 30466}
+    - Class: 114
+      Script: {instanceID: 30504}
+    - Class: 114
+      Script: {instanceID: 30508}
+    - Class: 114
+      Script: {instanceID: 30630}
+    - Class: 114
+      Script: {instanceID: 30654}
+    - Class: 114
+      Script: {instanceID: 30792}
+    - Class: 114
+      Script: {instanceID: 30888}
+    - Class: 114
+      Script: {instanceID: 30926}
+    - Class: 114
+      Script: {instanceID: 31124}
+    - Class: 114
+      Script: {instanceID: 31270}
+    - Class: 114
+      Script: {instanceID: 31388}
+    - Class: 114
+      Script: {instanceID: 31450}
+    - Class: 114
+      Script: {instanceID: 31558}
+    - Class: 114
+      Script: {instanceID: 31842}
+    - Class: 114
+      Script: {instanceID: 31926}
+    - Class: 114
+      Script: {instanceID: 32048}
+    - Class: 114
+      Script: {instanceID: 32236}
+    - Class: 114
+      Script: {instanceID: 32390}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 221
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: f9a8895200533849355f694993c06657
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 95c8a8c68e664d4868755f06e7c55997
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: cfe956a5aec1e035002d41a84c5afa53
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ChefGameManager
+  - hash:
+      serializedVersion: 2
+      Hash: b2d2a01a2a85d9ed12e80cb33a9a6044
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d9579a6703cf0e8409bbc2b72079f7a2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MealSO
+  - hash:
+      serializedVersion: 2
+      Hash: c09a59d12f535f2a4c806801f2de230e
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineClearShot
+  - hash:
+      serializedVersion: 2
+      Hash: cf62aad97f6c2dd5d482e2509c6c9528
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: e20a6de5f1fd1dfae6f1186e8f77c3d9
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteResolver
+  - hash:
+      serializedVersion: 2
+      Hash: 2c583ad0ac85d03e8700dd05fdcb46cb
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: 61319095e40c0cbfeeb89f99a1cdd4fb
+    assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: CinemachineUniversalPixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: 29362692ab8b7c46bfb7c8cb42bfe5b4
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteLibrarySourceAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ed8e62f07ec878233f5493a335003493
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: VirtualMouseInput
+  - hash:
+      serializedVersion: 2
+      Hash: efd4551bdb0429d6ad3f987d938f1235
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: UIPopup
+  - hash:
+      serializedVersion: 2
+      Hash: b80c63dcd61f5727cd9f18a07f1ae4f7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Plate
+  - hash:
+      serializedVersion: 2
+      Hash: b72d9c057c0f9460abf04218f4cc4f0e
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerMessageBox
+  - hash:
+      serializedVersion: 2
+      Hash: ec59bc56f69d3d13d1fc9d3e087fb56d
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SkeletonAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f405e71e91fb825f98f5eb47322b9a14
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: SoundManager
+  - hash:
+      serializedVersion: 2
+      Hash: e061bdd0159a784b8acc0552dd0f40bb
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: d94ab063bb5949a0b32f0fce630a1d50
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: AchievementLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 9ebc0a3016506a0cbb7e0306dfcb9497
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e7e95903ca66d58e1a7cbd71f824e16d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: a671e9952040d98f16b0f72fb8035610
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AnimalSO
+  - hash:
+      serializedVersion: 2
+      Hash: c075767a43a578e552e55a7c97541130
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: 
+    className: ES3Defaults
+  - hash:
+      serializedVersion: 2
+      Hash: 0370b9f95798139b666659c7e1be6147
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: BaseInputOverride
+  - hash:
+      serializedVersion: 2
+      Hash: c27554f9feec0ec62923b4c200a63b9e
+    assemblyName: Unity.2D.IK.Runtime
+    namespaceName: UnityEngine.U2D.IK
+    className: CCDSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 0c0b64d103fe555d830e8ca206abd12a
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2087e1b7411835f9e2e550b7eac9a079
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: SwitchManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 5853689a3479946eee2b8547c1f13d3c
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: DeformationManagerUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: d6a65ba97a0c0a1199acaa34901acb80
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: SelectorInputHandler
+  - hash:
+      serializedVersion: 2
+      Hash: febcfbf0a0d85e37808a3740e3c2c6fa
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ec01d772f0fc0c641064350e96aad5d7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WashingStation
+  - hash:
+      serializedVersion: 2
+      Hash: a119221a1c3d590645a52df2cbebb41c
+    assemblyName: Unity.2D.Tilemap.Extras
+    namespaceName: UnityEngine
+    className: HexagonalRuleTile
+  - hash:
+      serializedVersion: 2
+      Hash: 4392bfff79efe0630144f16ea4d656ab
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerObjectList
+  - hash:
+      serializedVersion: 2
+      Hash: daeac1347f8039f61cd4017ff33bd3c6
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: InputSystemUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: a162ca8ca9931de6aea5c62f471a9e7a
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: GradientFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 8b15e35eb98fc258ec2e839df7c3c9b0
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8bdf39615375786f137bc815d5b6454d
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 41a4330d64355a48e810a26e26c8dbcd
+    assemblyName: QFSW.QC.UI
+    namespaceName: QFSW.QC.UI
+    className: DynamicCanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 5c0f2f5b5095831ba8f70d0d7c044bad
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SingleLoadSlotUI
+  - hash:
+      serializedVersion: 2
+      Hash: f99ce8526ec148f29051c0a9dced1a03
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineGlobalSettings
+  - hash:
+      serializedVersion: 2
+      Hash: a6111da92190da68c1fb9d2e7e629088
+    assemblyName: Assembly-CSharp
+    namespaceName: LayerLab.GUIScripts
+    className: PanelControl
+  - hash:
+      serializedVersion: 2
+      Hash: 709e7a14fd69c48de1a0f460ef868042
+    assemblyName: Unity.2D.Tilemap.Extras
+    namespaceName: UnityEngine.Tilemaps
+    className: AdvancedRuleOverrideTile
+  - hash:
+      serializedVersion: 2
+      Hash: 682dfc653b22feea53b38adb3bc66414
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: bfa9d6dfbc3c74a843a3b197bdcc6639
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 968a6410325a4cfa6582969db8c8c3d8
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: UIManagerSplashScreen
+  - hash:
+      serializedVersion: 2
+      Hash: db9b308769d19e1f9e161df0392c23ca
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTransformChildrenChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9dd54ce33440072d6692a67e0c384ad1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 817d719114f1c2641836415a0e0e772a
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineOrbitalTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 4b921dbdbd3bf206a01cfcaac0ff5702
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineConfiner2D
+  - hash:
+      serializedVersion: 2
+      Hash: 0e0514f84ec4365adad3574454032bf4
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: SmoothScrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: f669be52680c88846b2093fd41d1e06e
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 20a120e55ad3ab65556328d5fd8309dd
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 2deddcdd5f664164bb803747210cbba2
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerRow
+  - hash:
+      serializedVersion: 2
+      Hash: 2bbd05175d4cdd21e24f9716cdd24f83
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.XR
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 1362033cd491d66ad3cc206af29cc0de
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: Volume
+  - hash:
+      serializedVersion: 2
+      Hash: da281dc879c7932e0c9669da88ae40c0
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 9507f221948bbd40853cc0ec75374d07
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: LensFlareComponentSRP
+  - hash:
+      serializedVersion: 2
+      Hash: 4b6627b2ea8f2830039e3ef9d94829c8
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineShotQualityEvaluator
+  - hash:
+      serializedVersion: 2
+      Hash: 8796c6da6a47ae142848f54876af26a2
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: ES3Internal
+    className: ES3DefaultSettings
+  - hash:
+      serializedVersion: 2
+      Hash: c77a06db4d15575553e8821199e3f93e
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineGroupComposer
+  - hash:
+      serializedVersion: 2
+      Hash: 4ee1e5f285c826248e282a4df1635b19
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: 05afd034bf7a074278a40ad9e97d8db4
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: e6ee7dccba41ae87d10e3d922c6cb71c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 522f6865b4ec12522e602206785309f8
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 53e329840e6d03aebec76623c3b054db
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: d0af51a897b36974a36c3fdef46b2b1a
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: UIManagerText
+  - hash:
+      serializedVersion: 2
+      Hash: ef19274111491b6b8bcc6fd227f656f5
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIndirectFloatField
+  - hash:
+      serializedVersion: 2
+      Hash: 8b68513a37565b7d5a8b5486e9bbc5bc
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: ES3Internal
+    className: ES3Prefab
+  - hash:
+      serializedVersion: 2
+      Hash: ee34255e3e86289bde9bad5e07b84cbc
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollRectValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 47d50f529890b9237021f88334dc1cf6
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteLibraryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: dd9dda1dfd39e605c49e72003342ef5d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 0126f347d98d02424c7e030465a71ead
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.HID.Editor
+    className: HIDDescriptorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: f379904be705ab5dd721d6f3b4bdf3d2
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineRotateWithFollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 66496b917404bcb20f6bf50861c1adc6
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: ProbeVolumeBakingSet
+  - hash:
+      serializedVersion: 2
+      Hash: dbe4f05d59170430398f6453d7253fe5
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerWidget
+  - hash:
+      serializedVersion: 2
+      Hash: 6d971045f8e67def7430d0b6f3cb0700
+    assemblyName: Unity.RenderPipelines.GPUDriven.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: DisallowSmallMeshCulling
+  - hash:
+      serializedVersion: 2
+      Hash: 1e83bf1e8d478609a784c66aa7882023
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Item
+  - hash:
+      serializedVersion: 2
+      Hash: 7bdff9e91edfd9600f92a185def7e34a
+    assemblyName: Unity.VisualScripting.Flow
+    namespaceName: Unity.VisualScripting
+    className: ScriptMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 0a3f328f3ea906bbbcf794f4c27ee59d
+    assemblyName: Unity.VisualScripting.Flow
+    namespaceName: Unity.VisualScripting
+    className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 401b389b97833ac7ca8ff9ba89b853d5
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: SwitchManager
+  - hash:
+      serializedVersion: 2
+      Hash: 73707dd24af053d88322ad9a735a180a
+    assemblyName: Unity.2D.Tilemap.Extras
+    namespaceName: UnityEngine.Tilemaps
+    className: GridInformation
+  - hash:
+      serializedVersion: 2
+      Hash: 33f160a5c07e580c29aba2bd1e4db811
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: de8e34fffe62b77ca47bae273d0414ba
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: ObsoleteProbeVolumeAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 318c05e600784246d034e8495772110e
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineConfiner3D
+  - hash:
+      serializedVersion: 2
+      Hash: b0f379ed883edd53ba1bff28d4b4b094
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: b87547877f7bea0dd59c10bfb798b858
+    assemblyName: Unity.2D.Tilemap.Extras
+    namespaceName: UnityEngine
+    className: IsometricRuleTile
+  - hash:
+      serializedVersion: 2
+      Hash: 41248b8eaeb87d7303c04e86410569c2
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: BoxContainerItem
+  - hash:
+      serializedVersion: 2
+      Hash: e009a37a9c0c02704f36b3e6881d0f5e
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: CanvasGroupAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 5648f27e933bbd703d96c0bbde7e5f84
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ProgressBarEditor
+  - hash:
+      serializedVersion: 2
+      Hash: eac37a5f690b05cdd00c435644b0989d
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ImageFading
+  - hash:
+      serializedVersion: 2
+      Hash: 7f88a848318a890d9c2bef241adc541a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 948f742c14cf06ad1505535fa059fff9
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineCamera
+  - hash:
+      serializedVersion: 2
+      Hash: a8961621294b7dbf78e8b9801bde8284
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ItemManager
+  - hash:
+      serializedVersion: 2
+      Hash: c4cdb902228df56d5b2b639d6a6bbd3c
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: c00826b2379e4bc3f3b4fb846b0a162d
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineBlenderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 1bc6ff8d02d2d68019aa6a028f8d409d
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e987953190eb4c12cf19df790566dc2c
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: f00a41363c7cdf378a1551e4641176be
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: NotificationManager
+  - hash:
+      serializedVersion: 2
+      Hash: 0bc7ef1b7516f21320ec49bfd31eef2e
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: TrackedDeviceRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 33656f83bb0079184b2206a69690ec46
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: da5a949a0bbd2ff91bc51c5805c2c41f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9104447b683bf70406fa01f12ecb564a
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: ea5e0cb2f62c5bafc3dfb7bcdc9595e1
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: DebugUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: a92561298b80715aa69e8fa770123cb5
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI.Editor
+    className: InputSystemUIInputModuleEditor
+  - hash:
+      serializedVersion: 2
+      Hash: b14e186823458f549289789cccbb77ce
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 722208307ebb0d8f6bec35863c021674
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineTrackedDolly
+  - hash:
+      serializedVersion: 2
+      Hash: 67272c9c30c50b68ef1ce72ac0191c57
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 78ca1ca587b556427dc5b678fe779987
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: SocialsWidgetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 7a93f0e017bb473e6f714bafeea683fd
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: SpriteSwapper
+  - hash:
+      serializedVersion: 2
+      Hash: 33399aa50372dcde640a228b0ff54e2d
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineThirdPersonFollow
+  - hash:
+      serializedVersion: 2
+      Hash: 6b2b20d5352b9f1294595326f54bd3c2
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerObjectPopupField
+  - hash:
+      serializedVersion: 2
+      Hash: 191c3402cd43ee08f0a96795440c294e
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: AdvancedDropdownWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 961d21b21cfa7e27642ba2358432049f
+    assemblyName: QFSW.QC.UI
+    namespaceName: QFSW.QC.UI
+    className: BlurShaderController
+  - hash:
+      serializedVersion: 2
+      Hash: fce99de7ab700e0c4c466ebd583aa306
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorLookup
+  - hash:
+      serializedVersion: 2
+      Hash: 915204dac8acad99f076d6e72ada0a0f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 1011beefc36841fc6a0baf6ec504438c
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: UIManagerTextEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 95426d463074947dcbffc797c44e779c
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI.Editor
+    className: StandaloneInputModuleModuleEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 9f27b94c3c17b0da0d39632b61a4b711
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: a65218b8ecf77809bd45d36f23053aa8
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: UIManagerFontChanger
+  - hash:
+      serializedVersion: 2
+      Hash: 3fe29837466a1e0e00c65b4b1fd3dfca
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DeliveryStation
+  - hash:
+      serializedVersion: 2
+      Hash: c0a2b4d13675f08bfb211e044c334e68
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIntField
+  - hash:
+      serializedVersion: 2
+      Hash: c77b8049ee2d49480abd1cf884014792
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: 7c19cde64cdf8f017b6ebbab2f58ad80
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: e63fe08659e7e4647a51098c666f8845
+    assemblyName: Unity.InputSystem
+    namespaceName: 
+    className: DownloadableSample
+  - hash:
+      serializedVersion: 2
+      Hash: aeabf1b9984c63aa96281fb83b3bdfbd
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: NoiseSettings
+  - hash:
+      serializedVersion: 2
+      Hash: afb7b65d28d5a7423e69a1b076be0064
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 4728e3d21cc2a12e391e71ec9b7eed0b
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 16bebe4bdd921b8617c51e9f6af1e211
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: MusicButton
+  - hash:
+      serializedVersion: 2
+      Hash: b30c8635462e66ac20f4241106119f77
+    assemblyName: Unity.VisualScripting.State
+    namespaceName: Unity.VisualScripting
+    className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 15bdeb9669a4fe5f738fed9441046056
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineRecomposer
+  - hash:
+      serializedVersion: 2
+      Hash: 11b31834f771c7c8356eb82b395665d8
+    assemblyName: QFSW.QC.Demo
+    namespaceName: QFSW.QC.Demo
+    className: Robot
+  - hash:
+      serializedVersion: 2
+      Hash: ea790ee1331e9202607e531fa60b0e94
+    assemblyName: QFSW.QC
+    namespaceName: QFSW.QC
+    className: SuggestionDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: c3f41082c3a80fe05abe736fb5e5d83e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ButtonAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 70da63ab9a71ec673ed7c6bdefc45887
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CookingStation
+  - hash:
+      serializedVersion: 2
+      Hash: 0f6b6107168e347e854c0107aa8cb9fb
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerEnumHistory
+  - hash:
+      serializedVersion: 2
+      Hash: 0e95527f83af669ca0f25d2628de8aa0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: 51b80d3734ea86b38e3101db98029e15
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7d026ae582dc02c5edc3fc23b8c03ff7
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector3
+  - hash:
+      serializedVersion: 2
+      Hash: b72839eb6e4350778dc879d98832aa2b
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerHBox
+  - hash:
+      serializedVersion: 2
+      Hash: 67ba98f8a8977f3e60e5f0e049923033
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerColor
+  - hash:
+      serializedVersion: 2
+      Hash: 5862a964f93589f2714442afe3bbef81
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: OptionsMenuUI
+  - hash:
+      serializedVersion: 2
+      Hash: bc8c525e39b6fddab1a15c5b47455669
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ScreenSpaceLensFlare
+  - hash:
+      serializedVersion: 2
+      Hash: 63ab3968883333593f40ff62a1519871
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: LocalizationSettingsEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 7bb32d6e4c7614a97d9723ce7e26588c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: BasicPlayableBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 501898370ee0904e6a113faaed11fffd
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: d0cdd713f9bf4e6a625d9e7804deca42
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: d2bee9fe4a1a6bbaab9f74aeb6a934e2
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: PostProcessData
+  - hash:
+      serializedVersion: 2
+      Hash: 4367594cef8038e7a571179cbb9e5897
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineSplineDolly
+  - hash:
+      serializedVersion: 2
+      Hash: 01727a040aa965d7fae41c3c1e1d9ee5
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: PaniniProjection
+  - hash:
+      serializedVersion: 2
+      Hash: ec9ccaca568e4da2afef4da666db35ca
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: Popup
+  - hash:
+      serializedVersion: 2
+      Hash: 6d09e3d019aca19435553a0f98e6fd26
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: SliderManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: a9a9985bc600ab81586355efc506ee17
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: WhiteBalance
+  - hash:
+      serializedVersion: 2
+      Hash: 21d396433bc155436b5004301182fbfa
+    assemblyName: Unity.2D.PixelPerfect
+    namespaceName: UnityEngine.U2D
+    className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: bb087f9b323dc196cc1a985185699515
+    assemblyName: QFSW.QC.Extras
+    namespaceName: QFSW.QC.Extras
+    className: CoroutineCommands
+  - hash:
+      serializedVersion: 2
+      Hash: 73ae76050b518d8f9c708215c48c00ed
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: UIManagerColorChanger
+  - hash:
+      serializedVersion: 2
+      Hash: f41f1e6043ba6c2fafa4b4c75164e679
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EconomyManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8b52cf7aa4673b9c3a7b0ec63c99b68a
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: LevelScene
+  - hash:
+      serializedVersion: 2
+      Hash: e88d71ef93aba4e7faf243430f6a10ce
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: MacroScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 4501918a75c8a57078855355fda291f5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RecipeSO
+  - hash:
+      serializedVersion: 2
+      Hash: ae598e3661326d85cb7d423a59d574a2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InventoryUI
+  - hash:
+      serializedVersion: 2
+      Hash: 991def3bb38fe468342c445b01daabcf
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: DeformationManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4f353524ce6564e40764f1ea080b2d85
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: cce4f0b8ab53462984eddfaf829cac4a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlatesTable
+  - hash:
+      serializedVersion: 2
+      Hash: c7461ddb2926b22edcbffe17bf941824
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DecalProjector
+  - hash:
+      serializedVersion: 2
+      Hash: 096697c69786e4e7a688a8ed5bec008e
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineStoryboard
+  - hash:
+      serializedVersion: 2
+      Hash: 02a47340661d2ea7c6d30e292cfef403
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a3901985eb076c1c9b7562fca82ca3e0
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: d7e96237847e9b7ebf698e6a85de5099
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineFollow
+  - hash:
+      serializedVersion: 2
+      Hash: 6d6e96f652ec2a0bf7815e8ef2f4f48b
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: Spinner
+  - hash:
+      serializedVersion: 2
+      Hash: f295412bc00b58b9095a71e9764cc886
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6dc3d79712ca4934f6d50c80f010b1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 13fb2f31e1880ab8bcd01cbe07d67a1a
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ShopButtonManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 035633c90ee8d8cf9a02e04922a59238
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineSmoothPath
+  - hash:
+      serializedVersion: 2
+      Hash: c6369b4cc3be620d6c9300e920bc3d52
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: cf32d98954e63b8e30e9334b152e9b8e
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: a5a2404c0b8cf518b73c8156fbc91dfc
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineExternalImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: df9aee1894d42581df414c1e29a80b2a
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineRotationComposer
+  - hash:
+      serializedVersion: 2
+      Hash: 42c1a9c3417d9ec6abfb3b9688a139d0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HarvestableManager
+  - hash:
+      serializedVersion: 2
+      Hash: 08e2446b65d2da7600c6bbdd36de0e56
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: 805b2fb9a7df3c1a10cefb1c14bb1d85
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: AchievementItem
+  - hash:
+      serializedVersion: 2
+      Hash: 1c492359e3e95a5ccd1b6e9f2dd765e6
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ControllerManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3e21c4fc1790539a1a5e53c6dae8099a
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ChannelMixer
+  - hash:
+      serializedVersion: 2
+      Hash: b24bae4511d404331640e62f8b8c2ed0
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: ProbeVolumesOptions
+  - hash:
+      serializedVersion: 2
+      Hash: b89c773a75c84003b6a65c9612adf8cf
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: CreditsManager
+  - hash:
+      serializedVersion: 2
+      Hash: c87a29ed5cc1bfd6a554725719ee4df7
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineSplineRoll
+  - hash:
+      serializedVersion: 2
+      Hash: 681cbc6a19eb22f9f164d8c83acdc61d
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineFollowZoom
+  - hash:
+      serializedVersion: 2
+      Hash: 8dff8e9853297d341afa0c11f9091b59
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: f4170f2c0c034cb42db5bb0a290fc279
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ShinyImage
+  - hash:
+      serializedVersion: 2
+      Hash: 00bcfff150a932126a4ea840d0861a6b
+    assemblyName: Unity.2D.SpriteShape.Runtime
+    namespaceName: UnityEngine.U2D
+    className: SpriteShapeDefaultCreator
+  - hash:
+      serializedVersion: 2
+      Hash: 1321993db8249e1e05e1e0492b2bbdc3
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6d924814fd191bb164b14d5437d0174c
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ScrollbarInputHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 5289cc8018a9b4b277e790bb6131262b
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineMixingCamera
+  - hash:
+      serializedVersion: 2
+      Hash: d90629714fa6b0145fcaffc87f5c6559
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b6307dfc54cca9ba44f47185c578b0ce
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2e9d0dfa3121b45a3d26eddb8bab0758
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: SocialsWidget
+  - hash:
+      serializedVersion: 2
+      Hash: beb2ea3588f59e428fed7a9f22bd870b
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: BoxButtonManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: fe0a072dbdcbca34d5003c5299de3aaf
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: SceneRenderPipeline
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc40a01667ca02b3354a4e7a61be082
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: bf0842d88681628b29beb00b5e2ab785
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a6f42b8ae3ba6b9112aefd29c7948310
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: InputFieldManager
+  - hash:
+      serializedVersion: 2
+      Hash: bc75926bfd3609757f7bf33ff766f026
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.EnhancedTouch
+    className: TouchSimulation
+  - hash:
+      serializedVersion: 2
+      Hash: 33eb495d99aa9bea4dbe8b4c4e02c7bb
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionReference
+  - hash:
+      serializedVersion: 2
+      Hash: 4878e735441f4041539853759559c86f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: e0cf060d3a0d1afae0c661ac42606ab8
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: ProbeVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 40be2ad159aa1a2b72ecc74cb38c7824
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.UI
+    className: MultiplayerEventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 22130d378b859a59f2cb973162c02f89
+    assemblyName: Unity.2D.PixelPerfect
+    namespaceName: UnityEngine.U2D
+    className: PixelPerfectCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 1d50d9f39ddada470f50759f34cfad28
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: PauseMenuManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 18539599f227a58434a8fa9311f8d1ce
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ChapterManager
+  - hash:
+      serializedVersion: 2
+      Hash: df407479eeb09105c1b4c2c6ea5152d7
+    assemblyName: QFSW.QC
+    namespaceName: QFSW.QC
+    className: QuantumConsole
+  - hash:
+      serializedVersion: 2
+      Hash: b46b97415390a3f4d62802bfb3b7cdb5
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: CanvasManager
+  - hash:
+      serializedVersion: 2
+      Hash: 715f7928b39881049ce8c46350cb8681
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTransformParentChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8434ff0db02a88eb4bde73892ff42cba
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: SoundButton
+  - hash:
+      serializedVersion: 2
+      Hash: 6cf63e9dc888f92a3672d2e4db631c8e
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 3074afe1b03a0fb081e176a4ef1b9d09
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionAssetEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 0860e6a7a2fbcc0a57f8ef16016f848a
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineFixedSignal
+  - hash:
+      serializedVersion: 2
+      Hash: c1973d9415999dac0c789d81fcd10c2d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AnimalSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 534b19ebe3d88e930f24a5002a7530ab
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: PlayPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 4d93812d8e059ea6096e2f045edd4319
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: HUDManager
+  - hash:
+      serializedVersion: 2
+      Hash: 113e54f67456d0e7754c0598ee2a6dd4
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: ProbeVolumePerSceneData
+  - hash:
+      serializedVersion: 2
+      Hash: 28fd3d045acc780719a17f02073eb448
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 04eb8fb738170d4c7bbc9d806dab861e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Animal
+  - hash:
+      serializedVersion: 2
+      Hash: 7678d9f0b1da0f6838af9b9d4df05236
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: 
+    className: ES3AutoSaveMgr
+  - hash:
+      serializedVersion: 2
+      Hash: 5a9c960fe06e2673290669d21aa0d69c
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: 6e778c2762d85debab2a8d56193feb86
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineOrbitalFollow
+  - hash:
+      serializedVersion: 2
+      Hash: e49f64f6c7006f2a8a0e7674b5de1fae
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 112f1b782c8054fe0791bd8774367be2
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineTouchInputMapper
+  - hash:
+      serializedVersion: 2
+      Hash: 919dc7ec08f773fcae2d21a1e018bd99
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: ab858cf087123fd64733a5c79ad8730c
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: UIManagerLogoEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 5e4399d5d191e45a3f56e2ed702b3cfd
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ControllerManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: c4036fafc16f59c024cd4b9758917f32
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineInputAxisController
+  - hash:
+      serializedVersion: 2
+      Hash: 14fb963022965ffa004cc4ec810b9fdd
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: BufferManager
+  - hash:
+      serializedVersion: 2
+      Hash: 90cf308600fb4aeb677786843453ec55
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: RemoteInputPlayerConnection
+  - hash:
+      serializedVersion: 2
+      Hash: c833d8ddc320fe5153f6a88cef23c858
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerObject
+  - hash:
+      serializedVersion: 2
+      Hash: 5c2a5af4658ede896d072a8a641d706e
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorCurves
+  - hash:
+      serializedVersion: 2
+      Hash: 47f78e94e3df8d612cefa1307a19e2ce
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerValue
+  - hash:
+      serializedVersion: 2
+      Hash: e3f93602b6d7505b389f6e2aab909b83
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: SliderInput
+  - hash:
+      serializedVersion: 2
+      Hash: 1736757e132fe745136a42fee1d88871
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UnlockableArea
+  - hash:
+      serializedVersion: 2
+      Hash: ec1a911d5694ffdaee73e433fb1bab08
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ChapterIdentifier
+  - hash:
+      serializedVersion: 2
+      Hash: 580926f22b7b2d4a0e6feed756098f14
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: SliderManager
+  - hash:
+      serializedVersion: 2
+      Hash: ace76fa9a052d1eac470fb86364c266a
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: UIManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 11bfd8e114b0cee733bd68200b989b01
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRendererData
+  - hash:
+      serializedVersion: 2
+      Hash: f5aa9fff0ae70acdf290a1294ec70901
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: LocalizationManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4fcf0bb4aff1d14a1dfcdedc4b07bd05
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 8d7ab1303b1c14da5fdd62bf96ca6e89
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: FreeCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 8703b6ae2b0eefd9dafbc44d8d333fb1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 1ab136900c0edaeeb49424c852595030
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 7a0bde3ac6d739f92105cfe5613df2e0
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalAdditionalCameraData
+  - hash:
+      serializedVersion: 2
+      Hash: dbebfdff15b0f6e1de6d34cab8b50f90
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: 
+    className: ES3AutoSave
+  - hash:
+      serializedVersion: 2
+      Hash: edb9718628b76d6612002923e45fcf23
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: SliderInputHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 5015c05a2113f320567617675a1ebe33
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputStateWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 7053e305cdc1eb560f4c3be49d3b5136
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: e5f9868e485ac5248f96a3be584a5e4a
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 810e3c228b295cc60c4de2cdd94b18cb
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: f2098fcd8ee983a05ec192f63904298f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c058ff8faaff3e0da63b5433ebfb40bc
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Tonemapping
+  - hash:
+      serializedVersion: 2
+      Hash: 6cd537699e7b9d2c05de37e23d077803
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: LaunchURL
+  - hash:
+      serializedVersion: 2
+      Hash: 953fad5c5ab1e7bb889420c434db93fe
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerFloatField
+  - hash:
+      serializedVersion: 2
+      Hash: e81bf7d4290eb9291aa9e23e90b97774
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineBrain
+  - hash:
+      serializedVersion: 2
+      Hash: a908b098f2284663c0b9130e88844772
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: c4b85a67513b4f0cf7b5fb2d5ded04b0
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6f8fc3009afc43e41b1c477e18aff79e
+    assemblyName: AssetInventory.Examples
+    namespaceName: AssetInventoryUsage
+    className: OpenSearch
+  - hash:
+      serializedVersion: 2
+      Hash: 4d841986b0db3e7132241409febb9189
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InventorySlotUI
+  - hash:
+      serializedVersion: 2
+      Hash: fd7983aadddd0b1b9f4ce82ed537bde5
+    assemblyName: Unity.2D.SpriteShape.Runtime
+    namespaceName: UnityEngine.U2D
+    className: SpriteShape
+  - hash:
+      serializedVersion: 2
+      Hash: 61602bcd67643b72ce3dadbb3bc07506
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: 
+    className: ES3CreateSlot
+  - hash:
+      serializedVersion: 2
+      Hash: c152307c7934a040fa20d52a886f8e77
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineSplineSmoother
+  - hash:
+      serializedVersion: 2
+      Hash: 07b0a27ff6e056effa68e5e2bd95c921
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: UIGradientEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 6c2ebe1f34d95eda4a59f5ef1fea6fed
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: AchievementManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 711ba963e2b245a25de71beeaeeeb658
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerFoldout
+  - hash:
+      serializedVersion: 2
+      Hash: 1131d16e2402427640760042b5486b11
+    assemblyName: Unity.2D.IK.Runtime
+    namespaceName: UnityEngine.U2D.IK
+    className: CullingManager
+  - hash:
+      serializedVersion: 2
+      Hash: 9f355e210e7950e47ad1391c7681435b
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerEnumField
+  - hash:
+      serializedVersion: 2
+      Hash: 43ebd945b04bced376c791411cf5a289
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1ddccc9c3a58e54eb8e26c06445acef1
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineFramingTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: e0ef2fe3db7eee23c2357f573e1badfb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MixerStation
+  - hash:
+      serializedVersion: 2
+      Hash: 0668db9ab796b0642c014e24f5025350
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MealOrderManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3627438fae6dba806ab6b980e10a2255
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineSplineCart
+  - hash:
+      serializedVersion: 2
+      Hash: 1f28d3bb1a0947277c80b78f0bd722fe
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InventoryManager
+  - hash:
+      serializedVersion: 2
+      Hash: a9f0153fc675e1f4ade818b83e4ff0c1
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: VolumeComponent
+  - hash:
+      serializedVersion: 2
+      Hash: f57c08fa2b42ec4996e52abf3ee6a985
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StationManager
+  - hash:
+      serializedVersion: 2
+      Hash: afd93a73b1a25411442e1f8e20aeab1a
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: MusicManager
+  - hash:
+      serializedVersion: 2
+      Hash: 13f262cc0741566a7ab72682984bc3e1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: c27a8d9749b8e0f0b4c594f264548ac6
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineBrainEvents
+  - hash:
+      serializedVersion: 2
+      Hash: d19b2a808236bae84e6821596dfdb13d
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: LocalizationManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: a19216c51dea4b9312068ef82662f619
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineCameraEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 0f5a086d4d028363983ba6ca30a01397
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseOverMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f90f4c33236123423c3caaadebe1e4a9
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: SettingsElementEditor
+  - hash:
+      serializedVersion: 2
+      Hash: b235c23342f460997138502ac21fd7d8
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineBasicMultiChannelPerlin
+  - hash:
+      serializedVersion: 2
+      Hash: e86c91cdc37fa991f25492457a33ec58
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BaseStation
+  - hash:
+      serializedVersion: 2
+      Hash: 3586e7f4fd3cb20328f9458141273dab
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ScreenSpaceAmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: e23d2210701e34e6850023cabe554c1f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldEndEditMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fd4cc9037d66a0b564a5bf23671a88e7
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ForwardRendererData
+  - hash:
+      serializedVersion: 2
+      Hash: 90bb80aa0aba8480a4b5c0ac0933dae9
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ControllerPresetManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3773805f0a1ff0ade20d5353c2a21878
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineDoNotUpgrade
+  - hash:
+      serializedVersion: 2
+      Hash: e00e2fcf3c84061d20b64dff3922e6e1
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: HeatUIInternalTools
+  - hash:
+      serializedVersion: 2
+      Hash: 5d4e8d2ae072e65d3995f3a3b0980851
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LoadGameUI
+  - hash:
+      serializedVersion: 2
+      Hash: a90f6a00b23520788be7d89ee3b0773d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 8e36876dd68b1273ce5d7e68463c6cc0
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: PlayPopupOpener
+  - hash:
+      serializedVersion: 2
+      Hash: b94c7f8d973b51171ff04d4b740e40df
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CookbookUI
+  - hash:
+      serializedVersion: 2
+      Hash: 605dcf437694bb938ac2940bcf37da68
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: GraphicsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4f98fc88b8ae71417a7491bc7da4be8a
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineFreeLookModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 8f8118cbbc57e7ab94f40e42abd7e2b6
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineVirtualCamera
+  - hash:
+      serializedVersion: 2
+      Hash: d9a9802ca92adc40b40e579089ccd628
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: HorizontalSelectorEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 7e06b3b7ab42126147b65aed6933682c
+    assemblyName: Assembly-CSharp
+    namespaceName: LayerLab.CasualGame
+    className: PanelView
+  - hash:
+      serializedVersion: 2
+      Hash: 80aeb876b0e95f6256bbfcbf33e26e84
+    assemblyName: Unity.2D.IK.Runtime
+    namespaceName: UnityEngine.U2D.IK
+    className: LimbSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 987a2f42d4dfcdd35c82821a2f39743a
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineSplineDollyLookAtTargets
+  - hash:
+      serializedVersion: 2
+      Hash: 6ff4ad8388ee9effa4f32555bed0ee65
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ProgressBar
+  - hash:
+      serializedVersion: 2
+      Hash: f6838a1e67dcdc45565de8ec00f3a2f7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ParticleEffectsManager
+  - hash:
+      serializedVersion: 2
+      Hash: f5df081962c06a171f380eb236cd1f3c
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVBox
+  - hash:
+      serializedVersion: 2
+      Hash: 73675adc007e7957f78d7d8c10a8d8ec
+    assemblyName: QFSW.QC.Demo
+    namespaceName: QFSW.QC.Demo
+    className: RobotSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: e66d5bd2ce4fd19133712f792b021bc4
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ButtonFrameEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 215d2dc6ec6ea06728398ea39a103cb3
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenStick
+  - hash:
+      serializedVersion: 2
+      Hash: 7bb24cbc946006776faa1aa9ad7fb2c4
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: MuteBackgroundMusic
+  - hash:
+      serializedVersion: 2
+      Hash: 0f4525fd8c4a4b7304417d024b826e2d
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: UIManager
+  - hash:
+      serializedVersion: 2
+      Hash: b18c6a8b0dbb4b9d82420dc420fd4372
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: AchievementManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3133d2d7a207a2869570f7278712b999
+    assemblyName: QFSW.QC.Demo
+    namespaceName: QFSW.QC.Demo
+    className: Gate
+  - hash:
+      serializedVersion: 2
+      Hash: e8fd74e57e72e8e4ef28792881adb864
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerUIntField
+  - hash:
+      serializedVersion: 2
+      Hash: 58570e231c93c2f96918856759b81286
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 1af54fb3bffbe6b96abea40ac0b61d83
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PurchaseStationSingleUI
+  - hash:
+      serializedVersion: 2
+      Hash: e8d390bd9ecacc453a7500b90d0c0292
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a89b0448af4e1cd103a77f9fec0a961f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: cb07681239f20b883dd2c2e4187ad76e
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ButtonManager
+  - hash:
+      serializedVersion: 2
+      Hash: eea89e56b39e63032da3ac131c9241d9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BaseUI
+  - hash:
+      serializedVersion: 2
+      Hash: 5a4aa2850fe11587f47e34c270c7fd22
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 86344100c716167fb86137c127ca9eee
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionImporterEditor
+  - hash:
+      serializedVersion: 2
+      Hash: e6f8333cc8a800e2866870a5ef7efc35
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnControllerColliderHitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 68589f954d791c9cedae48d270204814
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineThirdPersonAim
+  - hash:
+      serializedVersion: 2
+      Hash: ab41ac210868a0c707fbc83c7a072024
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: NavigationBar
+  - hash:
+      serializedVersion: 2
+      Hash: 1ce63d97d1ca25cba2d91d5f32fd5f79
+    assemblyName: Unity.VisualScripting.State
+    namespaceName: Unity.VisualScripting
+    className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 6edf8892e1a35d9f3e36007a74caccc3
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: PanelButtonEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 8ed5daadd237bb82e132790f75ffccaf
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: PlayerInputEditor
+  - hash:
+      serializedVersion: 2
+      Hash: d270fd7ad26644108f833db77cde161a
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: DropdownEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 393b6b06c4ccdbc76a671ae0928a4613
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: LayoutGroupFix
+  - hash:
+      serializedVersion: 2
+      Hash: 17381ac6f63b1993b0882fbbe000f4ab
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineLegacyCameraEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 3ce409a10a69fae112b7c488b06ddb88
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PurchaseStationUI
+  - hash:
+      serializedVersion: 2
+      Hash: bb7b0fca381d998bf62c226e88ffa87d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MealCardUI
+  - hash:
+      serializedVersion: 2
+      Hash: 568292fb7ea6c4f7a667e5ff76bc7e85
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 55060a7bf226ac385ce19ebd450f199f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 97295426908a1cfa6c3b547faeff3a0c
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineFreeLook
+  - hash:
+      serializedVersion: 2
+      Hash: 1404fd26a8070b3c77d67184143e2e3f
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: Fader
+  - hash:
+      serializedVersion: 2
+      Hash: 7e12302f66e3c8ed5bcfea4ce65fccea
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: eebfc181be71187500b9e3a54f33d569
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ItemSO
+  - hash:
+      serializedVersion: 2
+      Hash: 6d94138b60a9299798dda96c1ee6725f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBeginDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1167adda5e365d8f544e6c3c800ffed7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WaterWell
+  - hash:
+      serializedVersion: 2
+      Hash: 9da926302ede7010a2620f727037e201
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineConfiner
+  - hash:
+      serializedVersion: 2
+      Hash: 0b61b692f1221eae2af32bd8ba7a372a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: 
+    className: ES3SlotManager
+  - hash:
+      serializedVersion: 2
+      Hash: dd0d6c663a70a021288c321392464a20
+    assemblyName: Unity.2D.SpriteShape.Runtime
+    namespaceName: UnityEngine.U2D
+    className: SpriteShapeController
+  - hash:
+      serializedVersion: 2
+      Hash: 92d2f1b5caad308f00346e80906759e8
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: SpinWheel
+  - hash:
+      serializedVersion: 2
+      Hash: 1553f209ae0b2d5d3a35685fca55f9c3
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 8bf800a764665b085fe469e8aea7f167
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b51962e241dba8da1109f6d19e8a6e01
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: InitialPlayerPrefs
+  - hash:
+      serializedVersion: 2
+      Hash: f854af586011dd194574f89546642e29
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9a41f6fbdb23b1dc3461204ccec69629
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachinePanTilt
+  - hash:
+      serializedVersion: 2
+      Hash: 252799c3b388c0b0eb560b923d22d86e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainMenuUI
+  - hash:
+      serializedVersion: 2
+      Hash: f3dea08bb9b0271aa1c5bf872d5ec635
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineAutoFocus
+  - hash:
+      serializedVersion: 2
+      Hash: d7eace897c158327a9abe3d6449540a3
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: NewsSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 704662b4c37c177b3f180b7b725ead3b
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: Cinemachine3rdPersonFollow
+  - hash:
+      serializedVersion: 2
+      Hash: 1f83eef13a79f436d9b929359da21ab6
+    assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ShadowCaster2D
+  - hash:
+      serializedVersion: 2
+      Hash: 49f4d9b654244365e702fc549fc34449
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: NotificationManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: d4c7cb9e46d192844a5b295d6a3f8dc5
+    assemblyName: Unity.RenderPipelines.GPUDriven.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: DisallowGPUDrivenRendering
+  - hash:
+      serializedVersion: 2
+      Hash: aa775cb4b883b5a50ad7494b310842ff
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: NavigationBarEditor
+  - hash:
+      serializedVersion: 2
+      Hash: fa6a41d51ef8ca5ae9e5c6dc497e13ca
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: PauseMenuManager
+  - hash:
+      serializedVersion: 2
+      Hash: 10ffd5579f941e0f4946756d18f1a9df
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerValueTuple
+  - hash:
+      serializedVersion: 2
+      Hash: ff271204759bb4287da395614c48cfdb
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: TextTimeCounter
+  - hash:
+      serializedVersion: 2
+      Hash: c78ed13f6b5a632d70d4f73f56ad81f2
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 1a680d9a08de79b0d2c779e78c9843b4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 06a363599d7ea009611c21b8769aad89
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MessageUI
+  - hash:
+      serializedVersion: 2
+      Hash: d1c227ea5598da0ed4598c327a53bff6
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineDecollider
+  - hash:
+      serializedVersion: 2
+      Hash: c7dbf51e84b03c7dfbe6b1b12ee989d2
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachinePOV
+  - hash:
+      serializedVersion: 2
+      Hash: 5a25c7516fadef3552c99f55215749d0
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputDeviceDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: eaa0c0e8be0f1eb2e3ee42dc08a7b5ff
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AnimalManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71fb69e83f0be03fefb5aebad7a445b5
+    assemblyName: QFSW.QC
+    namespaceName: QFSW.QC
+    className: QuantumKeyConfig
+  - hash:
+      serializedVersion: 2
+      Hash: ff4ef3e84477b14cc9839b80e8f25225
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TreeRustle
+  - hash:
+      serializedVersion: 2
+      Hash: f73e3a97805e1e671360c632c4565101
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: FilmGrain
+  - hash:
+      serializedVersion: 2
+      Hash: 0fc4f2cfa1cfc09fa2c3e1af782e90c3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StationPlot
+  - hash:
+      serializedVersion: 2
+      Hash: d75df0b83c74ab3d9088964ef8188507
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteSkin
+  - hash:
+      serializedVersion: 2
+      Hash: dead9f95e7cbfa0ed645cae1af205aaf
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameInput
+  - hash:
+      serializedVersion: 2
+      Hash: ee7d463adb549a4ed98845d6f0d231a7
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e4b7831f0a9e91f079eb40ea24427631
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorAdjustments
+  - hash:
+      serializedVersion: 2
+      Hash: 8da2eb82e011fc0dac497098ff35b406
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlantItemSO
+  - hash:
+      serializedVersion: 2
+      Hash: 14f8c3da54a840e4c398ed3fa7b6057f
+    assemblyName: Unity.2D.SpriteShape.Runtime
+    namespaceName: 
+    className: SpriteShapeGeometryCache
+  - hash:
+      serializedVersion: 2
+      Hash: 8d2d84c2277a6b8a8c408d33460d02d4
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: HotkeyEventEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 25a70ac19eb2e03345166c9dc471ca06
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: GroupWeightManipulator
+  - hash:
+      serializedVersion: 2
+      Hash: 96e7bcfd2d072992dab64ac44058b930
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 31929f30ae8b1c7f4ec4823bc810e882
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EconomyUI
+  - hash:
+      serializedVersion: 2
+      Hash: 7d557386247f1dae0a292507110377a8
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineSequencerCamera
+  - hash:
+      serializedVersion: 2
+      Hash: f0d39f546b50ce2a02ef3d8153d8bf1a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: 
+    className: ES3InspectorInfo
+  - hash:
+      serializedVersion: 2
+      Hash: 415316b9bbc4e339c901a46503e2790b
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: VolumeProfile
+  - hash:
+      serializedVersion: 2
+      Hash: bd2d9b072e71e348486414804becb6fe
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachinePath
+  - hash:
+      serializedVersion: 2
+      Hash: 423a476ab542d3012c3975bd2e7a80c9
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: UIManagerAudio
+  - hash:
+      serializedVersion: 2
+      Hash: 99bb9140774a8f8cac89436af29b544d
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineDeoccluder
+  - hash:
+      serializedVersion: 2
+      Hash: c4836fca7aec9cb0ee70b970855f7fe8
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: UIManagerImageEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 467f4a5e5f0a57c9f502e4d66c72baf5
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteSkinContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 5f27242e1ad2aadb1faa604dd779a464
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 2f43860e745f8edade7bd381809e537b
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalAdditionalLightData
+  - hash:
+      serializedVersion: 2
+      Hash: c0e5bfb98d847b01e30c39ad2d7ba24b
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: SettingsDescription
+  - hash:
+      serializedVersion: 2
+      Hash: 24af424a437762b0c98a2238a41b2825
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerButton
+  - hash:
+      serializedVersion: 2
+      Hash: ff76cf6cf52b4db7b95af6ffadca9288
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 0f19765290d81f9e93eff7828a091d40
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: PlayerInput
+  - hash:
+      serializedVersion: 2
+      Hash: 57b64972b1750b9058975363256cdccc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AnimalCoop
+  - hash:
+      serializedVersion: 2
+      Hash: 1b996e8a42eb53fdfd7846136711c046
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StationSO
+  - hash:
+      serializedVersion: 2
+      Hash: 6497e3f16f16954a5bc0e8d49b287d9d
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ImagePulse
+  - hash:
+      serializedVersion: 2
+      Hash: d7c8092511063e0dae8106bfc8ed63dd
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3594d8e9fcbd74e51eec80efbf16c599
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: 0b63f6d3335e11939ce8790b904c8691
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ec6cf673540b2d4e42c612611eeafe4d
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71d2ced8c39b632d0c80dd7a8c8159ea
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ItemTooltipUI
+  - hash:
+      serializedVersion: 2
+      Hash: ff5172bc81dc2da4c7de2a8bf56dc4b8
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionsEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 14bd0be1d8cb9cf9a040a1497c698044
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CameraShake
+  - hash:
+      serializedVersion: 2
+      Hash: 088d1add2dd949dab19053cf562f0fcc
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: BoxContainer
+  - hash:
+      serializedVersion: 2
+      Hash: e64a691fa0498875177aa18b0829f808
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineShot
+  - hash:
+      serializedVersion: 2
+      Hash: 0206e906c3903c6588fb95e2b82a580b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TrashStation
+  - hash:
+      serializedVersion: 2
+      Hash: 00df14103e546b23c2e507bd7b7c8a44
+    assemblyName: QFSW.QC
+    namespaceName: QFSW.QC
+    className: QuantumTheme
+  - hash:
+      serializedVersion: 2
+      Hash: 8b91f06c8966eecbe63ae92dc47441a0
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: HeatUIEditorHandler
+  - hash:
+      serializedVersion: 2
+      Hash: e2ea44611601de69f4be725bfb72be4b
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineCameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 21fe2f63a8ad465ea6a41d5985621e10
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ButtonFrame
+  - hash:
+      serializedVersion: 2
+      Hash: 64756cee21909a7a459d5e05844baa97
+    assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: CompositeShadowCaster2D
+  - hash:
+      serializedVersion: 2
+      Hash: ecaf7f400c5600ea36f4b37bdadc19ea
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ButtonManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: cdc223a505b82b2824d8d95f4f280a02
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: LocalizationTableEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 8a53344512f969f0b1cfc2880b67cd59
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineInputProvider
+  - hash:
+      serializedVersion: 2
+      Hash: a5f52e289070cca28d53aa2d26bf266a
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: Bone
+  - hash:
+      serializedVersion: 2
+      Hash: d71665b64451fd01bdfa013c32487660
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ChapterManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: f956c5d6e6962d5e39f4d2fce1ff5bc3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MealOrderUI
+  - hash:
+      serializedVersion: 2
+      Hash: e165b24c7a6cf0e7675a0034582604ae
+    assemblyName: QFSW.QC.UI
+    namespaceName: QFSW.QC.UI
+    className: ZoomUIController
+  - hash:
+      serializedVersion: 2
+      Hash: af770ad771658627851c64eafbf797f0
+    assemblyName: Unity.2D.Tilemap.Extras
+    namespaceName: UnityEngine.Tilemaps
+    className: AnimatedTile
+  - hash:
+      serializedVersion: 2
+      Hash: 8fe6d4f095ce838f5396d1867140a9b6
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: CameraSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: 211ff4a9c5405be77bc270bf69e91985
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: ColorSwapper
+  - hash:
+      serializedVersion: 2
+      Hash: 1cbb4e0b62478608b30658808899c743
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ControllerPreset
+  - hash:
+      serializedVersion: 2
+      Hash: aab432a547fa5c534a18020fca580f32
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SaveManager
+  - hash:
+      serializedVersion: 2
+      Hash: 534896cd16790ae23619b486ffd94129
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineSameAsFollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: a7d1c9456fc41028f7d872021c120d83
+    assemblyName: QFSW.QC.Demo
+    namespaceName: QFSW.QC.Demo
+    className: RobotCollector
+  - hash:
+      serializedVersion: 2
+      Hash: d497e277ee09923aa44c51901a8f68f9
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: LensFlareDataSRP
+  - hash:
+      serializedVersion: 2
+      Hash: 0a4ef3c4e73b2f3eef913e2325924084
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputSettings
+  - hash:
+      serializedVersion: 2
+      Hash: d0392b7f3f52d5af537ade186b4f51f1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0a890d0245afee92f7b6a7bc2e955504
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: LocalizationTable
+  - hash:
+      serializedVersion: 2
+      Hash: add138dcf72f9cad2eff36c14824eff9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ProgressBarUI
+  - hash:
+      serializedVersion: 2
+      Hash: e9db29e31ba60222fa1690a9445f34f5
+    assemblyName: Unity.2D.Tilemap.Extras
+    namespaceName: UnityEngine.Tilemaps
+    className: RuleOverrideTile
+  - hash:
+      serializedVersion: 2
+      Hash: 90aafdbe0a9cd12a778a155bb12982ee
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineCameraManagerEvents
+  - hash:
+      serializedVersion: 2
+      Hash: b810dfd26c061161a980f9a956f9a116
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ScreenSpaceShadows
+  - hash:
+      serializedVersion: 2
+      Hash: 9dc274eab7228631e90d4757b13b768a
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ShadowsMidtonesHighlights
+  - hash:
+      serializedVersion: 2
+      Hash: 7a8115e425f5a4fe4f05ccb9192bc4a4
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: 
+    className: ES3GlobalManager
+  - hash:
+      serializedVersion: 2
+      Hash: 049f6aa84fe1cb5359c9338e96d0b07e
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: UIFoldout
+  - hash:
+      serializedVersion: 2
+      Hash: 8bbce9932f67ad8e7f4eefec87800f94
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 4c180766539dbb44c9fd3701d243d134
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: MenuManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 3de6f85b27a4d52edc5054990a37fd82
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineGroupFraming
+  - hash:
+      serializedVersion: 2
+      Hash: ad49e20f31ed572e586aa8bbaafb591b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 04b6685b6f724c0d6024e6b6f96c8202
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 6d394de691f6d0187f61c08889353d0e
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnButtonClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b98001682cba83786775c9e415b89a61
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b838cbada0b03f1cfbaebc8e124f4f39
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.OnScreen
+    className: OnScreenButton
+  - hash:
+      serializedVersion: 2
+      Hash: ee989c3b1cc22890bc1a094097348594
+    assemblyName: Unity.Splines
+    namespaceName: UnityEngine.Splines
+    className: SplineContainer
+  - hash:
+      serializedVersion: 2
+      Hash: bb8d968ef4474e71aaad4a4dce279f90
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2aabaca6247005c3e34cd462cffa40d0
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: SettingsDescriptionManager
+  - hash:
+      serializedVersion: 2
+      Hash: 011e5fc9a16a92c48f4e0864f49b1ebe
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: HUDManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 8778dd3645d4ba66e0f4a9143e961cdd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Harvestable
+  - hash:
+      serializedVersion: 2
+      Hash: 7e9cad7f71f9cc52f699bbd2d2a75734
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5f70b16cd9acc9c1dd88b51b6ed89669
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIndirectToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 5874b789cd9832847c61ebfa803213af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: cea7a9eda4cea41c062e72793eebd884
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: UIManagerLogo
+  - hash:
+      serializedVersion: 2
+      Hash: 973907bb2a1fa8d6c22cbd5fab2de2fe
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachinePositionComposer
+  - hash:
+      serializedVersion: 2
+      Hash: a64f8ae08f7fd4ab145d2b1c43b17ef1
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: UIElementSound
+  - hash:
+      serializedVersion: 2
+      Hash: 656900f3eacc1cd944adb71a70bd9396
+    assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: PixelPerfectCamera
+  - hash:
+      serializedVersion: 2
+      Hash: b389e6ce18a3f2dfd4e317569b4b4319
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: LocalizedObject
+  - hash:
+      serializedVersion: 2
+      Hash: 40748a1fa2f8e4bd2e4857261aa4500e
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: UIGradient
+  - hash:
+      serializedVersion: 2
+      Hash: d771cabeaa363771c54f6c41824f7abb
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: LiftGammaGain
+  - hash:
+      serializedVersion: 2
+      Hash: f6ba5602271240f7885ca39ad2c65f4b
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: BoxButtonManager
+  - hash:
+      serializedVersion: 2
+      Hash: cb49ce80d4b69cb2ed30d83bfcb146ae
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerBitField
+  - hash:
+      serializedVersion: 2
+      Hash: 1e6aa1f905f62bcd0558226c29920412
+    assemblyName: Unity.2D.SpriteShape.Runtime
+    namespaceName: UnityEngine.U2D
+    className: SpriteShapeObjectPlacement
+  - hash:
+      serializedVersion: 2
+      Hash: d2ecd94550edf1b56aff07b1f4e41c57
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5ebc58ec194dd44630b25fcc270ad4af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 2cc5af0f17cef9c717df88c8c7e4c9aa
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine
+    className: LightAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: 130843b21c7e91d645b331784af44d88
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: TintedButton
+  - hash:
+      serializedVersion: 2
+      Hash: 7d795b371626bf77a8ee45db14ccb759
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: LocalizationLanguage
+  - hash:
+      serializedVersion: 2
+      Hash: f25bafc8667d53a20818005675e96f3a
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: PopupOpener
+  - hash:
+      serializedVersion: 2
+      Hash: 17a71904793c41964b29cf2c93c6e006
+    assemblyName: Unity.2D.IK.Runtime
+    namespaceName: UnityEngine.U2D.IK
+    className: IKManager2D
+  - hash:
+      serializedVersion: 2
+      Hash: 89b4afd81dd13570c26122cd7aae2f91
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: UISway
+  - hash:
+      serializedVersion: 2
+      Hash: 7bd61bb469a09f12b4d7cd912ff6635b
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: PanelButton
+  - hash:
+      serializedVersion: 2
+      Hash: f7b79b53b387f2f00ab51665105ee82e
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ModalWindowManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: f3f6d324b7eb793fdf04d378060af823
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ShopButtonManager
+  - hash:
+      serializedVersion: 2
+      Hash: 5520165ec93204b0c950152f46b65d73
+    assemblyName: QFSW.QC.Extras
+    namespaceName: QFSW.QC.Extras
+    className: KeyBinderModule
+  - hash:
+      serializedVersion: 2
+      Hash: ad68f7b90fc00133d02522c3691d2406
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: LocalizedObjectEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 5dc51b0140815ee83ba613dce32f5b12
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerPersistentCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 229bb1fc28041a5f09023f53bbab2e77
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: 
+    className: UnityObjectType
+  - hash:
+      serializedVersion: 2
+      Hash: 95cec85248d20787021305cfe145ab16
+    assemblyName: Unity.Splines
+    namespaceName: UnityEngine.Splines
+    className: SplineInstantiate
+  - hash:
+      serializedVersion: 2
+      Hash: 8cada5c0685a102e644f9226556cc0ad
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: LocalizationSettings
+  - hash:
+      serializedVersion: 2
+      Hash: b5007673bbbdb9d12597a1d8201370f5
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 2f5815f72c1d1e3c6b452d4e6748892d
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: UIManagerImage
+  - hash:
+      serializedVersion: 2
+      Hash: bfd4af30d9804c73a547e494b337b534
+    assemblyName: Unity.2D.Tilemap.Extras
+    namespaceName: UnityEngine
+    className: RuleTile
+  - hash:
+      serializedVersion: 2
+      Hash: d5cd7f207e91ca8336c65a577a6fb2a0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 3e87b10f8a748ee9793e3d268e3bab8a
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineStateDrivenCamera
+  - hash:
+      serializedVersion: 2
+      Hash: f45600bcc886206dd55a3208474aad61
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollbarValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 00bbd9db8634496d079d17711b2ff7c4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 25593d47dedf8bac7f9c57469c439902
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineTriggerAction
+  - hash:
+      serializedVersion: 2
+      Hash: 8776f2dbc16133e1fcece05652662601
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: UIManagerAudioEditor
+  - hash:
+      serializedVersion: 2
+      Hash: aaedbe6cb3fa6c9f2d5b53735de7ac10
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RankManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71cdd0cfb22332d8448ed16a10283f03
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: CreditsManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 7dcf0a9f16ca1ce0fdea7cf3c51b010f
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: HorizontalSelector
+  - hash:
+      serializedVersion: 2
+      Hash: c9b9b11b067e5a76d46638f6d93e49ce
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineHardLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: fce9b835d1e8b08e7ecea8da19f21986
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 81d56865ca5b180132a274927a241696
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: YSorter
+  - hash:
+      serializedVersion: 2
+      Hash: babe5553408c5bcf5cab85f8a95cfd65
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: CreditsMentionItem
+  - hash:
+      serializedVersion: 2
+      Hash: 51603d25dc8c39903df98901361f0b73
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DecalRendererFeature
+  - hash:
+      serializedVersion: 2
+      Hash: 6217b1287eca7eed313cf0b864249a30
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fb79e95da8891fc7ac6c36ca6967af23
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 552dca338f20933ce362ebbe559a6aa6
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a546772871f364f312097686886c0ecd
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ModeSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 5a4f8f6f1a2fe63f60f24078420e61dc
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: BackgroundMusic
+  - hash:
+      serializedVersion: 2
+      Hash: 191cd500c627cd6682ef6f70b8e47f2c
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 99dde382481d7658dc547735f2034e09
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: LocalizationLanguageEditor
+  - hash:
+      serializedVersion: 2
+      Hash: ef38c1407dba8c1f5d69f5db61a694fe
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: AnimatorMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b76c08b23c637e0aa8255a852280525a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: 
+    className: ES3ReferenceMgr
+  - hash:
+      serializedVersion: 2
+      Hash: 711fcd430ced52d118771c9c71e13238
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: RenderObjects
+  - hash:
+      serializedVersion: 2
+      Hash: b12640dfdb5966813e9dd838893e6c4a
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8d5318ed8488b1fe17c08044ce1b8309
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: e18dfd2b913b09fbbb2405165a2e6a44
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: ada873da50974d1e7ce247ffb296b0f3
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ce50187ed32d718209bb98a7e16cbafb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Bush
+  - hash:
+      serializedVersion: 2
+      Hash: 5382156409d7c462c67822a5ee8d6c85
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerToggleHistory
+  - hash:
+      serializedVersion: 2
+      Hash: 591541fc1a3d8be1f20a9084daa5535a
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: SettingsElement
+  - hash:
+      serializedVersion: 2
+      Hash: d85292b1d7ddb10e5a2df5d221dcba86
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem
+    className: InputActionAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 255e7753c44e6cf7a5218d9af943fc67
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: GradientFilterEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 185e7bacfbbc5defefa609c70f7ff4ce
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: e402a382f213255c22bda9254dd831b3
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: fea660240dde52e08bd79d154e104e15
+    assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Light2D
+  - hash:
+      serializedVersion: 2
+      Hash: a603609d2a3b97a7458aff017de529a3
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: Transition
+  - hash:
+      serializedVersion: 2
+      Hash: 0d94a5d0294f9712d9f41f61eb1ada23
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: PanelManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 15ceccabe6f5bbdc2d4f12fff444de1a
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: ES3Internal
+    className: ES3GlobalReferences
+  - hash:
+      serializedVersion: 2
+      Hash: 17142b03663387290480c82303274c02
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 29b7badd0c3015476969b775e8e51071
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: QuestItemEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 16e7dad03dcc226acbf2d70bda5e91d2
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: CreditsSectionItem
+  - hash:
+      serializedVersion: 2
+      Hash: aa7fcf918279590281f29e46679d4471
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: GraphicsManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 00eef92bf387da2c9009267123d9d674
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ed2c59b75f8f3cd8df4cd4387d965e71
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector2
+  - hash:
+      serializedVersion: 2
+      Hash: 2d635f9f5a90c14f90b03062aaaf7220
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: AnimatedButton
+  - hash:
+      serializedVersion: 2
+      Hash: 2541c03d117382d4ebbe0bb0775dd2dc
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerProgressBar
+  - hash:
+      serializedVersion: 2
+      Hash: 7b32e20eb7041cff6f8478b8f781e1b5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GardenPlot
+  - hash:
+      serializedVersion: 2
+      Hash: 5c21f4846181ee6e245db1fcfb62fc0e
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 4d238263d01178520d3c648ac11668e3
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: SettingsSubElement
+  - hash:
+      serializedVersion: 2
+      Hash: 2b12bf9c66cc47b6ec742bb7e7952d89
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ModeSelectorEditor
+  - hash:
+      serializedVersion: 2
+      Hash: ca7965796a6fc0e5baad4cb19f5b5ded
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c5be3766e4d038e9592329ac1c228cf1
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineTargetGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 962fb28245b717a2fbde88da361187a3
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: MenuManager
+  - hash:
+      serializedVersion: 2
+      Hash: ac2c229c9de42e4832e37432d7505d17
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineVolumeSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 8a42fda30872544cc41dd122bff6925c
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineDollyCart
+  - hash:
+      serializedVersion: 2
+      Hash: cde402e184a6ab530144506bc9d6a0af
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector4
+  - hash:
+      serializedVersion: 2
+      Hash: 95082fa9564453548f075b59d154bc0d
+    assemblyName: QFSW.QC
+    namespaceName: QFSW.QC
+    className: QuantumLocalization
+  - hash:
+      serializedVersion: 2
+      Hash: 3ca7f2be93d5156a91693dfd4bd38e3f
+    assemblyName: Unity.2D.IK.Runtime
+    namespaceName: UnityEngine.U2D.IK
+    className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: a4f1e66ace73a6aaa956212ebc89bcbd
+    assemblyName: Assembly-CSharp
+    namespaceName: Ricimi
+    className: SceneTransition
+  - hash:
+      serializedVersion: 2
+      Hash: f778e23b6ff26b8de4721be0eb1fa240
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 27fcf46f05da57849d306826fb32eb18
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: SplitToning
+  - hash:
+      serializedVersion: 2
+      Hash: 41e3942bc797b57638dedfe95e94f163
+    assemblyName: QFSW.QC.UI
+    namespaceName: QFSW.QC.UI
+    className: DraggableUI
+  - hash:
+      serializedVersion: 2
+      Hash: 86bf6f0a2f0fe56418e586083197a38c
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: 
+    className: ES3GameObject
+  - hash:
+      serializedVersion: 2
+      Hash: 9560c15e5eec6c0cdc50390aa8baf2f6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PauseMenuUI
+  - hash:
+      serializedVersion: 2
+      Hash: b747f5d40674055dd70e18552f1b0447
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 1140d1099a3f4893c3ecd94eab192569
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: NewsSliderEditor
+  - hash:
+      serializedVersion: 2
+      Hash: bf1cce2e164ce51b9f7fd97f728ac9db
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineCollisionImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: b3c14da96363451b62188215b31a074e
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: HotkeyEvent
+  - hash:
+      serializedVersion: 2
+      Hash: e6b258489c88376c5869946b2735e7e5
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: d7d424ed392cf89bdce865cf7461334f
+    assemblyName: Unity.Splines
+    namespaceName: UnityEngine.Splines
+    className: SplineAnimate
+  - hash:
+      serializedVersion: 2
+      Hash: 51baab6dba154a36086a9882dd15278e
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: PointerEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 6a0b5b415c00f783202fd1ae2d556cb2
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b88e78b6860b6061b2c681ea9b80b6bf
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 0819d95d9806b2217c39670aadb2868d
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: 
+    className: ES3Slot
+  - hash:
+      serializedVersion: 2
+      Hash: 14b8f6aae2c9c9965b87944dc3215604
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: CreditsPreset
+  - hash:
+      serializedVersion: 2
+      Hash: db6133687572f9dc24f1fd4238ef9b83
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: b55a43589b68e440b33d97ccbe1b6465
+    assemblyName: Assembly-CSharp-firstpass
+    namespaceName: 
+    className: ES3SlotDialog
+  - hash:
+      serializedVersion: 2
+      Hash: 48c646ce0442b8e8e8dd0ebbea1a6837
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineComposer
+  - hash:
+      serializedVersion: 2
+      Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 58f6c91dc9977217e7536afccdb74f71
+    assemblyName: Unity.RenderPipelines.Core.Runtime
+    namespaceName: UnityEngine.Rendering
+    className: ProbeAdjustmentVolume
+  - hash:
+      serializedVersion: 2
+      Hash: c1d1410174409a964b0582a96a7c4c42
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ExitGame
+  - hash:
+      serializedVersion: 2
+      Hash: 9a174471d4db2c0c6d3ac47d2f818db1
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: dd96b3a96df9fbd04ef7d49dce5915e7
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: PanelManager
+  - hash:
+      serializedVersion: 2
+      Hash: cd0236be57f994a728b47dda8e32e52d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CuttingStation
+  - hash:
+      serializedVersion: 2
+      Hash: 8750d9338855a02481e636fa3bcb3938
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: LocalizationTableWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 1c6652f4c37feeb5cc860a26df2389bb
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: QuestItem
+  - hash:
+      serializedVersion: 2
+      Hash: 1b00fc26f9cb78681d48ada37281260c
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineExternalCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 83cfda82082c233d96cc677c19f57e07
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 49087b2481fd9708ba4c89dd6c6cd5bc
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachinePipeline
+  - hash:
+      serializedVersion: 2
+      Hash: 463d61d8b8e01a0dc29090ed0e7ae9d1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CookBookManager
+  - hash:
+      serializedVersion: 2
+      Hash: a1ac4c50e55874de16eee3db71aa9784
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: b3eb5d73cd07eeee371bb1b136d026d6
+    assemblyName: Unity.RenderPipelines.Universal.Runtime
+    namespaceName: 
+    className: FullScreenPassRendererFeature
+  - hash:
+      serializedVersion: 2
+      Hash: b7f60d4145db0429b45507df017e2682
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: ModalWindowManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4718916586b3818eb69bf65df61f0f3a
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 28dcf9df3c8532286db2ea8e40e52d66
+    assemblyName: Unity.Cinemachine
+    namespaceName: Unity.Cinemachine
+    className: CinemachineHardLockToTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 9a242aecdaba57c346a8709f4722dd15
+    assemblyName: Unity.RenderPipelines.Universal.2D.Runtime
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Renderer2DData
+  - hash:
+      serializedVersion: 2
+      Hash: 6d65ad20c3815abb40522369bc6f3cd6
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 58b6106fba66d24ae139ba07c65b8500
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: InputNavigationLimiter
+  - hash:
+      serializedVersion: 2
+      Hash: 8a80b4346fe33ba8a5e91b68a4391ac2
+    assemblyName: Assembly-CSharp
+    namespaceName: Michsky.UI.Heat
+    className: RectDepth
+  - hash:
+      serializedVersion: 2
+      Hash: d82086405f46de14829f6b4bcbdd8fc9
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameInvisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 800d7bbf0edb0055aeacdbfbe84a84b8
+    assemblyName: Unity.InputSystem
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputActionEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: f2305da2400dfe6f069770a1a63f0f7c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a9b1399205244fa0a073d32399513fe0
+    assemblyName: QFSW.QC.UI
+    namespaceName: QFSW.QC.UI
+    className: ResizableUI
+  - hash:
+      serializedVersion: 2
+      Hash: 1b530010f2091e92c6d83e25022dba3e
+    assemblyName: Unity.Splines
+    namespaceName: UnityEngine.Splines
+    className: SplineExtrude
+  - hash:
+      serializedVersion: 2
+      Hash: dc729b9ffc6638221d874073f2c58328
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LoaderCallback
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/MainMenuScene.unity
+  - Assets/Scenes/LoadingScene.unity
+  - Assets/Scenes/GameScene.unity
+  playerPath: G:/Unity/Builds/Wilderness Chef/Wilderness Chef.exe

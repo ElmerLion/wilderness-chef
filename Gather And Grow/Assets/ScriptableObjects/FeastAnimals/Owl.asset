@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f691aad36079d6946bf47e93d383de49, type: 3}
+  m_Name: Owl
+  m_EditorClassIdentifier: 
+  animalName: Owl
+  potentialRequests:
+  - {fileID: 11400000, guid: cb6cfaf5e81068140bc8c7223d3f0680, type: 2}
+  rightSprite: {fileID: -1788626132936788117, guid: 535e17d620d888d46b0e8a04d571fc20, type: 3}
+  scale: {x: 0.1, y: 0.1, z: 0.1}

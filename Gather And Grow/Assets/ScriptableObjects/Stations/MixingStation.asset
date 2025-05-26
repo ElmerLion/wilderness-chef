@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c98191057f2c8f47ba142ec08741785, type: 3}
+  m_Name: MixingStation
+  m_EditorClassIdentifier: 
+  nameString: Mixing Station
+  startingCost: 300
+  sprite: {fileID: -257435923166550741, guid: 8274a510547cf0844bea7f81d2de4a41, type: 3}
+  prefab: {fileID: 6583965838162845088, guid: eb14b712e9ba46145b1ee468e5e97cd6, type: 3}

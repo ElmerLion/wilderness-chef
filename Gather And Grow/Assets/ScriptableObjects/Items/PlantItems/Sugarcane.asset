@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69533cc3d3657244ea924a1bcc394bfc, type: 3}
+  m_Name: Sugarcane
+  m_EditorClassIdentifier: 
+  nameString: Sugar cane
+  icon: {fileID: 5810982321245621134, guid: f0929d5e84dd836478894ff36f415bbc, type: 3}
+  maxStackSize: 20
+  canGetDirty: 1
+  isIngredient: 1
+  ingredientCategory: 1
+  plateRole: 0
+  plateScale: {x: 0.02, y: 0.02, z: 0.02}
+  dirtyOnHarvest: 0
+  destroyable: 0
+  plantableInGardenPlot: 1
+  regrownSprite: {fileID: 8136629997665025320, guid: 0e89838d5586f7040b4ce6a50c53f4ef, type: 3}
+  harvestedSprite: {fileID: 1626059528839200151, guid: 7f8bd336c3bcf424a91c974fbcf36e5d, type: 3}
+  regrowTime: 400
+  maxRegrowAmount: 2
+  harvestCooldown: 0.3
+  plantScale: {x: 0.075, y: 0.075, z: 0.075}

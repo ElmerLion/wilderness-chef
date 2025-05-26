@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 83bef9a4576900a48af0228f18f3f788
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2720310165528741210
+    second: OnionPlant_0
+  - first:
+      213: -584329106513005069
+    second: OnionPlant_1
+  - first:
+      213: -5203983385116033055
+    second: OnionPlant_2
+  - first:
+      213: 2604629478760827153
+    second: OnionPlant_3
+  - first:
+      213: -3820507122725014339
+    second: OnionPlant_4
+  - first:
+      213: -5287176887068693832
+    second: OnionPlant_5
+  - first:
+      213: -8419787901672975590
+    second: OnionPlant_6
+  - first:
+      213: -2321512925379293392
+    second: OnionPlant_7
+  - first:
+      213: -5221681090519418035
+    second: OnionPlant_8
+  - first:
+      213: -172623081403541156
+    second: OnionPlant_9
+  - first:
+      213: -2668244127909089025
+    second: OnionPlant_10
+  - first:
+      213: -7548077944592179161
+    second: OnionPlant_11
+  - first:
+      213: 3145594540022080802
+    second: OnionPlant_12
+  - first:
+      213: 7170605397776390489
+    second: OnionPlant_13
+  - first:
+      213: -4038290969590733666
+    second: OnionPlant_14
+  - first:
+      213: -2739327597751156706
+    second: OnionPlant_15
+  - first:
+      213: 1115330767830761744
+    second: OnionPlant_16
+  - first:
+      213: 9201886215463592056
+    second: OnionPlant_17
+  - first:
+      213: 1363068452102987086
+    second: OnionPlant_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OnionPlant_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 1021
+        height: 1022
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa76c831548f3ad0800000000000000
+      internalID: -2720310165528741210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnionPlant_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 176
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5fe5606cb04e7f0800000000000000
+      internalID: -584329106513005069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnionPlant_2
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 167
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efbf11eeacb7c7b0800000000000000
+      internalID: -5203983385116033055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnionPlant_3
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 154
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119cc0506b0852420800000000000000
+      internalID: 2604629478760827153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnionPlant_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 163
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db430288305dafac0800000000000000
+      internalID: -3820507122725014339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnionPlant_5
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 159
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba6d9542ac20a6b0800000000000000
+      internalID: -5287176887068693832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnionPlant_6
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 162
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1396ac6387e62b80800000000000000
+      internalID: -8419787901672975590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnionPlant_7
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 162
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f0a455b4458cfd0800000000000000
+      internalID: -2321512925379293392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnionPlant_8
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 136
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b373db6bcd887b0800000000000000
+      internalID: -5221681090519418035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnionPlant_9
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 154
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5998e8d838ba9df0800000000000000
+      internalID: -172623081403541156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnionPlant_10
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 143
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0f4f54a1e78fad0800000000000000
+      internalID: -2668244127909089025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnionPlant_11
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 118
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7206f9fc917df3790800000000000000
+      internalID: -7548077944592179161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnionPlant_12
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 128
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225ac6d619567ab20800000000000000
+      internalID: 3145594540022080802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnionPlant_13
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 130
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959d5f62e9b138360800000000000000
+      internalID: 7170605397776390489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnionPlant_14
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 130
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9460e942cb15f7c0800000000000000
+      internalID: -4038290969590733666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnionPlant_15
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 111
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e104e9c3014fbf9d0800000000000000
+      internalID: -2739327597751156706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnionPlant_16
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 43
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011cd9f8c637a7f00800000000000000
+      internalID: 1115330767830761744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnionPlant_17
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 48
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870654062caa3bf70800000000000000
+      internalID: 9201886215463592056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnionPlant_18
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 47
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4dd32c09879ae210800000000000000
+      internalID: 1363068452102987086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OnionPlant_0: -2720310165528741210
+      OnionPlant_1: -584329106513005069
+      OnionPlant_10: -2668244127909089025
+      OnionPlant_11: -7548077944592179161
+      OnionPlant_12: 3145594540022080802
+      OnionPlant_13: 7170605397776390489
+      OnionPlant_14: -4038290969590733666
+      OnionPlant_15: -2739327597751156706
+      OnionPlant_16: 1115330767830761744
+      OnionPlant_17: 9201886215463592056
+      OnionPlant_18: 1363068452102987086
+      OnionPlant_2: -5203983385116033055
+      OnionPlant_3: 2604629478760827153
+      OnionPlant_4: -3820507122725014339
+      OnionPlant_5: -5287176887068693832
+      OnionPlant_6: -8419787901672975590
+      OnionPlant_7: -2321512925379293392
+      OnionPlant_8: -5221681090519418035
+      OnionPlant_9: -172623081403541156
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

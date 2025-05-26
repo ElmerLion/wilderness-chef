@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a779f06eb65fe47b2cccc9741e3237, type: 3}
+  m_Name: SavoryChickenPasta
+  m_EditorClassIdentifier: 
+  nameString: Savory Chicken Pasta
+  finalMeal: {fileID: 0}
+  complexity: 0
+  ingredientItemsList:
+  - {fileID: 11400000, guid: 24c35551d8fec0e4a891cd02b00520e9, type: 2}
+  - {fileID: 11400000, guid: 72c468a8d5ed1c14a82165f3b8cb4caf, type: 2}
+  - {fileID: 11400000, guid: 01a26899c3bcfb6458c4ec918eaaa9d0, type: 2}
+  ingredientCategoryItems: 

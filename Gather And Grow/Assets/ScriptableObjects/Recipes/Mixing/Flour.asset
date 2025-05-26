@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba76d45c4c9d0534d8df03a7207f2492, type: 3}
+  m_Name: Flour
+  m_EditorClassIdentifier: 
+  stationTypeList: 05000000
+  showInCookbook: 1
+  alternativeItemInput: {fileID: 0}
+  input:
+  - itemSO: {fileID: 11400000, guid: 0863244162015054aa12394622870c67, type: 2}
+    amount: 1
+  output:
+  - itemSO: {fileID: 11400000, guid: 5f908edf5d4a1bf49a6161abe3ed427e, type: 2}
+    amount: 1
+  timeToCook: 12
+  progressMax: 0
+  cuttingStationAnimColor: []

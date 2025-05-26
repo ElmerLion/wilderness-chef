@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f99e403a67736f408ef33c606604d89, type: 3}
+  m_Name: BlueberryJam
+  m_EditorClassIdentifier: 
+  nameString: Blueberry Jam
+  icon: {fileID: -7296729432155798876, guid: 3582974d4e7f1f24ea2e1ee202dae457, type: 3}
+  maxStackSize: 20
+  canGetDirty: 1
+  isIngredient: 1
+  ingredientCategory: 4
+  plateRole: 0
+  plateScale: {x: 0.02, y: 0.02, z: 0.02}

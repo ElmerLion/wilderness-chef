@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69533cc3d3657244ea924a1bcc394bfc, type: 3}
+  m_Name: Potato
+  m_EditorClassIdentifier: 
+  nameString: Potato
+  icon: {fileID: -5661783315169486296, guid: c2d531bb0fd950c4b96afea1323257e9, type: 3}
+  maxStackSize: 20
+  isIngredient: 1
+  ingredientCategory: 1
+  plateRole: 0
+  plateScale: {x: 0.02, y: 0.02, z: 0.02}
+  dirtyOnHarvest: 1
+  destroyable: 0
+  plantableInGardenPlot: 1
+  regrownSprite: {fileID: -6839573262302196149, guid: 59586336e4542f64a8b36c5e125bd3f6, type: 3}
+  harvestedSprite: {fileID: 8816228963621150059, guid: 08b195c375b00ea41a1bcca31be9a5b2, type: 3}
+  regrowTime: 150
+  maxRegrowAmount: 2
+  harvestCooldown: 0.3
+  plantScale: {x: 0.06, y: 0.06, z: 0.06}

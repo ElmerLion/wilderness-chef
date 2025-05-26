@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69533cc3d3657244ea924a1bcc394bfc, type: 3}
+  m_Name: Onion
+  m_EditorClassIdentifier: 
+  nameString: Onion
+  icon: {fileID: 5465580561085644368, guid: 90f18a6ce42621f4ca87425095730b00, type: 3}
+  maxStackSize: 20
+  isIngredient: 1
+  ingredientCategory: 2
+  plateRole: 0
+  plateScale: {x: 0.02, y: 0.02, z: 0.02}
+  dirtyOnHarvest: 1
+  destroyable: 0
+  plantableInGardenPlot: 1
+  regrownSprite: {fileID: -2720310165528741210, guid: 83bef9a4576900a48af0228f18f3f788, type: 3}
+  harvestedSprite: {fileID: -6406761986290101462, guid: 2b04b308dfb3e5a4786ca3ad301c7df5, type: 3}
+  regrowTime: 160
+  maxRegrowAmount: 3
+  harvestCooldown: 0.3
+  plantScale: {x: 0.06, y: 0.06, z: 0.06}

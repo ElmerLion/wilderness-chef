@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69533cc3d3657244ea924a1bcc394bfc, type: 3}
+  m_Name: Wheat
+  m_EditorClassIdentifier: 
+  nameString: Wheat
+  icon: {fileID: 7720945941185500035, guid: ad397d28f27e59f448cca9aa6aa8f03f, type: 3}
+  maxStackSize: 20
+  isIngredient: 1
+  ingredientCategory: 1
+  plateRole: 0
+  plateScale: {x: 0.02, y: 0.02, z: 0.02}
+  dirtyOnHarvest: 1
+  destroyable: 0
+  plantableInGardenPlot: 1
+  regrownSprite: {fileID: 7523540734905232177, guid: 3d5cc75dcaddb2248873e02b09bc9355, type: 3}
+  harvestedSprite: {fileID: -3509390590428383570, guid: def8a0653fed6fb45b679dd1e4a933e4, type: 3}
+  regrowTime: 400
+  maxRegrowAmount: 1
+  harvestCooldown: 0.3
+  plantScale: {x: 0.06, y: 0.06, z: 0.06}
